@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-03T21:22:11.542Z",
+  "timestamp": "2025-12-03T21:29:47.027Z",
   "search_stats": {
     "\"built with claude\" in:readme": 2565,
     "\"built with chatgpt\" in:readme": 121,
@@ -10,7 +10,7 @@
     "\"made with copilot\" in:readme": 22,
     "\"built with windsurf\" in:readme": 50,
     "\"built with lovable\" in:readme": 1004,
-    "\"ai generated code\" in:readme": 7101,
+    "\"ai generated code\" in:readme": 7100,
     "\"100% ai built\" in:readme": 4,
     "\"fully ai generated\" in:readme": 209,
     "\"coded with ai\" in:readme": 2290
@@ -2549,6 +2549,18 @@
       "category": "Landing Page"
     },
     {
+      "full_name": "Ef1Pe/kayak_replica",
+      "url": "https://github.com/Ef1Pe/kayak_replica",
+      "description": "Replica of kayak created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:02:28Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Other"
+    },
+    {
       "full_name": "Ef1Pe/skyscanner_replica",
       "url": "https://github.com/Ef1Pe/skyscanner_replica",
       "description": "Replica of skyscanner created with Cursor Cloud Agent",
@@ -2571,18 +2583,6 @@
       "confidence": "high",
       "ai_tool": "Cursor",
       "category": "Travel/Tourism"
-    },
-    {
-      "full_name": "Ef1Pe/kayak_replica",
-      "url": "https://github.com/Ef1Pe/kayak_replica",
-      "description": "Replica of kayak created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:02:28Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Other"
     },
     {
       "full_name": "graphicsindore-dev/shreeram-website",
@@ -2765,6 +2765,18 @@
       "category": "Other"
     },
     {
+      "full_name": "Ef1Pe/agoda_replica",
+      "url": "https://github.com/Ef1Pe/agoda_replica",
+      "description": "Replica of agoda created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:02:13Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Other"
+    },
+    {
       "full_name": "Ef1Pe/zoom_replica",
       "url": "https://github.com/Ef1Pe/zoom_replica",
       "description": "Replica of zoom created with Cursor Cloud Agent",
@@ -2793,18 +2805,6 @@
       "url": "https://github.com/FirdowsAnkerCloud/test-cursor-project",
       "description": "A test project created with Cursor",
       "created_at": "2025-08-22T05:45:42Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Other"
-    },
-    {
-      "full_name": "Ef1Pe/agoda_replica",
-      "url": "https://github.com/Ef1Pe/agoda_replica",
-      "description": "Replica of agoda created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:02:13Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -2921,10 +2921,10 @@
       "category": "Productivity"
     },
     {
-      "full_name": "Ef1Pe/gemini.google_replica",
-      "url": "https://github.com/Ef1Pe/gemini.google_replica",
-      "description": "Replica of gemini.google created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:03:14Z",
+      "full_name": "Ef1Pe/twitter_x_replica",
+      "url": "https://github.com/Ef1Pe/twitter_x_replica",
+      "description": "Replica of twitter_x created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:01:38Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -2933,10 +2933,10 @@
       "category": "Other"
     },
     {
-      "full_name": "Ef1Pe/twitter_x_replica",
-      "url": "https://github.com/Ef1Pe/twitter_x_replica",
-      "description": "Replica of twitter_x created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:01:38Z",
+      "full_name": "Ef1Pe/gemini.google_replica",
+      "url": "https://github.com/Ef1Pe/gemini.google_replica",
+      "description": "Replica of gemini.google created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:03:14Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -4385,18 +4385,6 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "nnadijosephnj/calculatorhub",
-      "url": "https://github.com/nnadijosephnj/calculatorhub",
-      "description": null,
-      "created_at": "2025-07-15T04:52:36Z",
-      "language": null,
-      "stars": 1,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Bolt.new",
-      "category": "Other"
-    },
-    {
       "full_name": "cezvalen94/website-checker",
       "url": "https://github.com/cezvalen94/website-checker",
       "description": null,
@@ -4407,6 +4395,18 @@
       "confidence": "high",
       "ai_tool": "Bolt.new",
       "category": "Landing Page"
+    },
+    {
+      "full_name": "nnadijosephnj/calculatorhub",
+      "url": "https://github.com/nnadijosephnj/calculatorhub",
+      "description": null,
+      "created_at": "2025-07-15T04:52:36Z",
+      "language": null,
+      "stars": 1,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Bolt.new",
+      "category": "Other"
     },
     {
       "full_name": "cwefso/bolt-todo-app",
@@ -6281,6 +6281,18 @@
       "category": "Productivity"
     },
     {
+      "full_name": "Danrozen87/new-project",
+      "url": "https://github.com/Danrozen87/new-project",
+      "description": "new-project - Built with Lovable",
+      "created_at": "2025-07-26T18:11:29Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
+    },
+    {
       "full_name": "ajimalone/angeliruguin",
       "url": "https://github.com/ajimalone/angeliruguin",
       "description": null,
@@ -6298,18 +6310,6 @@
       "description": "new-weather - Built with Lovable",
       "created_at": "2025-07-26T18:18:43Z",
       "language": "CSS",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
-      "full_name": "Danrozen87/new-project",
-      "url": "https://github.com/Danrozen87/new-project",
-      "description": "new-project - Built with Lovable",
-      "created_at": "2025-07-26T18:11:29Z",
-      "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -6353,10 +6353,10 @@
       "category": "Other"
     },
     {
-      "full_name": "Danrozen87/weather-app-833679",
-      "url": "https://github.com/Danrozen87/weather-app-833679",
-      "description": "weather-app - Built with Lovable",
-      "created_at": "2025-07-26T18:50:34Z",
+      "full_name": "Danrozen87/to-do",
+      "url": "https://github.com/Danrozen87/to-do",
+      "description": "to-do - Built with Lovable",
+      "created_at": "2025-07-27T18:04:15Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6365,10 +6365,10 @@
       "category": "Other"
     },
     {
-      "full_name": "Danrozen87/to-do",
-      "url": "https://github.com/Danrozen87/to-do",
-      "description": "to-do - Built with Lovable",
-      "created_at": "2025-07-27T18:04:15Z",
+      "full_name": "Danrozen87/weather-app-833679",
+      "url": "https://github.com/Danrozen87/weather-app-833679",
+      "description": "weather-app - Built with Lovable",
+      "created_at": "2025-07-26T18:50:34Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6473,6 +6473,18 @@
       "category": "AI/ML Tools"
     },
     {
+      "full_name": "Danrozen87/todo-app-535648",
+      "url": "https://github.com/Danrozen87/todo-app-535648",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T21:18:56Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Productivity"
+    },
+    {
       "full_name": "Danrozen87/weather-app-197518",
       "url": "https://github.com/Danrozen87/weather-app-197518",
       "description": "weather-app - Built with Lovable",
@@ -6495,18 +6507,6 @@
       "confidence": "high",
       "ai_tool": "Lovable",
       "category": "Other"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-535648",
-      "url": "https://github.com/Danrozen87/todo-app-535648",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T21:18:56Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Productivity"
     },
     {
       "full_name": "Danrozen87/project-gantt",
@@ -6569,18 +6569,6 @@
       "category": "Other"
     },
     {
-      "full_name": "Danrozen87/minimal-to-do",
-      "url": "https://github.com/Danrozen87/minimal-to-do",
-      "description": "minimal-to-do - Built with Lovable",
-      "created_at": "2025-07-27T12:07:13Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
       "full_name": "Danrozen87/todo-app-430770",
       "url": "https://github.com/Danrozen87/todo-app-430770",
       "description": "todo-app - Built with Lovable",
@@ -6621,6 +6609,18 @@
       "url": "https://github.com/Danrozen87/to-do-494325",
       "description": "to-do - Built with Lovable",
       "created_at": "2025-07-27T22:14:54Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
+    },
+    {
+      "full_name": "Danrozen87/minimal-to-do",
+      "url": "https://github.com/Danrozen87/minimal-to-do",
+      "description": "minimal-to-do - Built with Lovable",
+      "created_at": "2025-07-27T12:07:13Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6701,6 +6701,30 @@
       "category": "Productivity"
     },
     {
+      "full_name": "Danrozen87/todo-app-822633",
+      "url": "https://github.com/Danrozen87/todo-app-822633",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T11:57:02Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Productivity"
+    },
+    {
+      "full_name": "Danrozen87/simple-todo-409598",
+      "url": "https://github.com/Danrozen87/simple-todo-409598",
+      "description": "simple-todo - Built with Lovable",
+      "created_at": "2025-07-27T16:56:49Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Productivity"
+    },
+    {
       "full_name": "Danrozen87/simple-sail",
       "url": "https://github.com/Danrozen87/simple-sail",
       "description": "simple-sail - Built with Lovable",
@@ -6730,6 +6754,18 @@
       "description": "new-project - Built with Lovable",
       "created_at": "2025-07-26T18:14:02Z",
       "language": "CSS",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
+    },
+    {
+      "full_name": "Danrozen87/new-to-do",
+      "url": "https://github.com/Danrozen87/new-to-do",
+      "description": "new-to-do - Built with Lovable",
+      "created_at": "2025-07-27T11:49:35Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -6773,10 +6809,22 @@
       "category": "Productivity"
     },
     {
-      "full_name": "Danrozen87/new-to-do",
-      "url": "https://github.com/Danrozen87/new-to-do",
-      "description": "new-to-do - Built with Lovable",
-      "created_at": "2025-07-27T11:49:35Z",
+      "full_name": "Danrozen87/simple-counter",
+      "url": "https://github.com/Danrozen87/simple-counter",
+      "description": "simple-counter - Built with Lovable",
+      "created_at": "2025-07-27T14:39:53Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
+    },
+    {
+      "full_name": "Danrozen87/minimal-weather",
+      "url": "https://github.com/Danrozen87/minimal-weather",
+      "description": "minimal-weather - Built with Lovable",
+      "created_at": "2025-07-27T12:02:25Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6801,54 +6849,6 @@
       "url": "https://github.com/Danrozen87/gantt-app-506762",
       "description": "gantt-app - Built with Lovable",
       "created_at": "2025-07-26T19:35:07Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-822633",
-      "url": "https://github.com/Danrozen87/todo-app-822633",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T11:57:02Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Productivity"
-    },
-    {
-      "full_name": "Danrozen87/simple-todo-409598",
-      "url": "https://github.com/Danrozen87/simple-todo-409598",
-      "description": "simple-todo - Built with Lovable",
-      "created_at": "2025-07-27T16:56:49Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Productivity"
-    },
-    {
-      "full_name": "Danrozen87/simple-counter",
-      "url": "https://github.com/Danrozen87/simple-counter",
-      "description": "simple-counter - Built with Lovable",
-      "created_at": "2025-07-27T14:39:53Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
-      "full_name": "Danrozen87/minimal-weather",
-      "url": "https://github.com/Danrozen87/minimal-weather",
-      "description": "minimal-weather - Built with Lovable",
-      "created_at": "2025-07-27T12:02:25Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -7025,18 +7025,6 @@
       "category": "Productivity"
     },
     {
-      "full_name": "Danrozen87/to-do-ley61t",
-      "url": "https://github.com/Danrozen87/to-do-ley61t",
-      "description": "to-do-ley61t - Built with Lovable",
-      "created_at": "2025-07-28T21:39:47Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
       "full_name": "Danrozen87/todo-app-812889",
       "url": "https://github.com/Danrozen87/todo-app-812889",
       "description": "todo-app - Built with Lovable",
@@ -7047,6 +7035,18 @@
       "confidence": "high",
       "ai_tool": "Lovable",
       "category": "Productivity"
+    },
+    {
+      "full_name": "Danrozen87/to-do-ley61t",
+      "url": "https://github.com/Danrozen87/to-do-ley61t",
+      "description": "to-do-ley61t - Built with Lovable",
+      "created_at": "2025-07-28T21:39:47Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
     },
     {
       "full_name": "Danrozen87/todo-app-720312",
@@ -7133,18 +7133,6 @@
       "category": "Other"
     },
     {
-      "full_name": "Danrozen87/to-do-m8i0gm",
-      "url": "https://github.com/Danrozen87/to-do-m8i0gm",
-      "description": "to-do-m8i0gm - Built with Lovable",
-      "created_at": "2025-07-28T21:44:07Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Other"
-    },
-    {
       "full_name": "Danrozen87/simple-todo-160287",
       "url": "https://github.com/Danrozen87/simple-todo-160287",
       "description": "simple-todo - Built with Lovable",
@@ -7169,11 +7157,11 @@
       "category": "Productivity"
     },
     {
-      "full_name": "Danrozen87/simple-to-do-280520",
-      "url": "https://github.com/Danrozen87/simple-to-do-280520",
-      "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T18:18:00Z",
-      "language": "JavaScript",
+      "full_name": "Danrozen87/to-do-m8i0gm",
+      "url": "https://github.com/Danrozen87/to-do-m8i0gm",
+      "description": "to-do-m8i0gm - Built with Lovable",
+      "created_at": "2025-07-28T21:44:07Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -7181,11 +7169,11 @@
       "category": "Other"
     },
     {
-      "full_name": "Danrozen87/simple-to-do-806368",
-      "url": "https://github.com/Danrozen87/simple-to-do-806368",
+      "full_name": "Danrozen87/simple-to-do-280520",
+      "url": "https://github.com/Danrozen87/simple-to-do-280520",
       "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T15:23:26Z",
-      "language": "TypeScript",
+      "created_at": "2025-07-27T18:18:00Z",
+      "language": "JavaScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -7203,6 +7191,18 @@
       "confidence": "high",
       "ai_tool": "Lovable",
       "category": "Entertainment"
+    },
+    {
+      "full_name": "Danrozen87/simple-to-do-806368",
+      "url": "https://github.com/Danrozen87/simple-to-do-806368",
+      "description": "simple-to-do - Built with Lovable",
+      "created_at": "2025-07-27T15:23:26Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Other"
     },
     {
       "full_name": "Danrozen87/weather-app-018426",
@@ -9617,6 +9617,18 @@
       "category": "Other"
     },
     {
+      "full_name": "ayman3000/python-notebook-hub",
+      "url": "https://github.com/ayman3000/python-notebook-hub",
+      "description": "A collection of beginner-friendly Python notebooks covering programming, data analysis, and deep learning.",
+      "created_at": "2025-06-16T11:53:30Z",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Education"
+    },
+    {
       "full_name": "datacraftso-cmd/bigfoot-autovlogs",
       "url": "https://github.com/datacraftso-cmd/bigfoot-autovlogs",
       "description": "bigfoot-autovlogs",
@@ -9639,18 +9651,6 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Other"
-    },
-    {
-      "full_name": "ayman3000/python-notebook-hub",
-      "url": "https://github.com/ayman3000/python-notebook-hub",
-      "description": "A collection of beginner-friendly Python notebooks covering programming, data analysis, and deep learning.",
-      "created_at": "2025-06-16T11:53:30Z",
-      "language": "Jupyter Notebook",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Education"
     },
     {
       "full_name": "Tilak-21/TLOU-AI",
@@ -11056,7 +11056,7 @@
       "description": "A static page generator for repos",
       "created_at": "2025-11-30T16:18:24Z",
       "language": "Go",
-      "stars": 344,
+      "stars": 345,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11298,7 +11298,7 @@
       "description": "The ultimate home for modded apps. OrionStore offers instant access to YouTube ReVanced, Spotify Premium, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
       "created_at": "2025-11-28T11:15:56Z",
       "language": "TypeScript",
-      "stars": 170,
+      "stars": 171,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11736,7 +11736,7 @@
       "description": "Norish - A realtime, self-hosted recipe app for families & friends ",
       "created_at": "2025-12-03T09:15:43Z",
       "language": "TypeScript",
-      "stars": 122,
+      "stars": 125,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",

@@ -14,43 +14,48 @@
             <p class="subtitle">Real-time detection of AI-generated applications</p>
         </header>
         
-        <div class="stats-grid">
-            <div class="stat-card large">
-                <div class="stat-value">950</div>
+        <div class="top-row">
+            <div class="stat-card primary">
                 <div class="stat-label">Total Apps Detected</div>
-                <div class="stat-trend">+44 from temporal analysis</div>
+                <div class="stat-value">950</div>
             </div>
             
-            <div class="stat-card red">
-                <div class="stat-value">906</div>
+            <div class="stat-card accent-red">
                 <div class="stat-label">Explicit Mentions</div>
+                <div class="stat-value">906</div>
             </div>
             
-            <div class="stat-card blue">
-                <div class="stat-value">44</div>
+            <div class="stat-card accent-blue">
                 <div class="stat-label">Temporal Detection</div>
+                <div class="stat-value">44</div>
             </div>
         </div>
         
-        <div class="charts-grid">
-            <div class="chart-card">
+        <div class="main-grid">
+            <div class="chart-section">
                 <h3>Detection Methods</h3>
-                <canvas id="methodsChart"></canvas>
+                <div class="chart-wrapper small">
+                    <canvas id="methodsChart"></canvas>
+                </div>
             </div>
             
-            <div class="chart-card">
+            <div class="chart-section">
                 <h3>Tool Distribution</h3>
-                <canvas id="toolsChart"></canvas>
+                <div class="chart-wrapper small">
+                    <canvas id="toolsChart"></canvas>
+                </div>
             </div>
-        </div>
-        
-        <div class="chart-card full">
-            <h3>Top AI Tools</h3>
-            <canvas id="barsChart"></canvas>
+            
+            <div class="chart-section large">
+                <h3>Top AI Tools</h3>
+                <div class="chart-wrapper">
+                    <canvas id="barsChart"></canvas>
+                </div>
+            </div>
         </div>
         
         <footer>
-            <p>Data from GitHub API • Detection: Claude Sonnet 4 • Updated: Dec 3, 2025</p>
+            <p>GitHub API • Claude Sonnet 4 • Updated Dec 3, 2025</p>
         </footer>
     </div>
     

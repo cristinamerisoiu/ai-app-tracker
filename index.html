@@ -4,118 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI App Tracker</title>
-<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>AI_APP_TRACKER</h1>
-            <div class="subtitle">REAL-TIME MONITORING OF AI-GENERATED REPOSITORIES</div>
+            <h1>AI App Tracker</h1>
+            <p class="subtitle">Real-time detection of AI-generated applications</p>
         </header>
         
-        <div class="main-grid">
-            <div class="hero-stat">
-                <div class="big-number">950</div>
-                <div class="big-label">Apps Detected</div>
-                <div class="meta">
-                    <p>BUILT_ON: coffee + desperation + prompts</p>
-                    <p>LAST_SCAN: 2025-12-03_17:45:22_UTC</p>
-                    <p>STATUS: OPERATIONAL</p>
-                </div>
+        <div class="stats-row">
+            <div class="stat-card primary">
+                <div class="stat-value">950</div>
+                <div class="stat-label">Total Apps Detected</div>
+                <div class="stat-meta">Updated: Dec 3, 2025</div>
             </div>
             
-            <div class="side-stats">
-                <div class="stat-card red">
-                    <div class="stat-number">906</div>
-                    <div class="stat-label">Explicit</div>
-                </div>
-                
-                <div class="stat-card blue">
-                    <div class="stat-number">44</div>
-                    <div class="stat-label">Temporal</div>
-                </div>
-                
-                <div class="stat-card">
-                    <div class="stat-number">132K</div>
-                    <div class="stat-label">Total Results</div>
-                </div>
+            <div class="stat-card accent-red">
+                <div class="stat-value">906</div>
+                <div class="stat-label">Explicit Mentions</div>
+            </div>
+            
+            <div class="stat-card accent-blue">
+                <div class="stat-value">44</div>
+                <div class="stat-label">Temporal Detection</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-value">132K</div>
+                <div class="stat-label">GitHub Results</div>
             </div>
         </div>
         
-        <div class="tool-section">
-            <div class="section-title">Detection Breakdown</div>
-            
+        <div class="chart-section">
+            <h2>Detection Breakdown</h2>
             <div class="tool-grid">
-                <div class="tool-item">
-                    <div class="tool-name">AI_GENERIC</div>
-                    <div class="tool-count">303</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">AI Generic</span>
+                        <span class="tool-count">303</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 100%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">CLAUDE</div>
-                    <div class="tool-count">100</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Claude</span>
+                        <span class="tool-count">100</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 33%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">CHATGPT</div>
-                    <div class="tool-count">100</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">ChatGPT</span>
+                        <span class="tool-count">100</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 33%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">CURSOR</div>
-                    <div class="tool-count">100</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Cursor</span>
+                        <span class="tool-count">100</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 33%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">BOLT.NEW</div>
-                    <div class="tool-count">100</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Bolt.new</span>
+                        <span class="tool-count">100</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 33%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">LOVABLE</div>
-                    <div class="tool-count">100</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Lovable</span>
+                        <span class="tool-count">100</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 33%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">WINDSURF</div>
-                    <div class="tool-count">50</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Windsurf</span>
+                        <span class="tool-count">50</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 16.5%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">TEMPORAL_INFER</div>
-                    <div class="tool-count">44</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Temporal Inferred</span>
+                        <span class="tool-count">44</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 14.5%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">COPILOT</div>
-                    <div class="tool-count">22</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">GitHub Copilot</span>
+                        <span class="tool-count">22</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 7.3%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">V0.DEV</div>
-                    <div class="tool-count">21</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">v0.dev</span>
+                        <span class="tool-count">21</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 6.9%"></div>
+                    </div>
                 </div>
                 
-                <div class="tool-item">
-                    <div class="tool-name">REPLIT_AI</div>
-                    <div class="tool-count">10</div>
+                <div class="tool-bar">
+                    <div class="tool-info">
+                        <span class="tool-name">Replit AI</span>
+                        <span class="tool-count">10</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 3.3%"></div>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <footer class="footer">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3>About</h3>
-                    <p>Automated detection of AI-generated repositories on GitHub.</p>
-                    <p>Multi-phase analysis: explicit mentions + temporal patterns.</p>
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <p><strong>About</strong></p>
+                    <p>Multi-phase detection: explicit mentions + temporal pattern analysis</p>
                 </div>
-                
-                <div class="footer-section">
-                    <h3>Technical</h3>
-                    <p>DATA_SOURCE: GitHub API</p>
-                    <p>DETECTION_ENGINE: Claude Sonnet 4</p>
-                    <p>SCAN_FREQUENCY: Daily</p>
+                <div>
+                    <p><strong>Data Source</strong></p>
+                    <p>GitHub API</p>
+                    <p>Detection: Claude Sonnet 4</p>
+                    <p>Frequency: Daily scans</p>
                 </div>
             </div>
         </footer>

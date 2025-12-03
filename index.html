@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI App Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI_APP_TRACKER</h1>
+            <div class="subtitle">REAL-TIME MONITORING OF AI-GENERATED REPOSITORIES</div>
+            <div class="tagline">// everyone's doing it. stop the shame.</div>
+        </header>
+        
+        <div class="main-grid">
+            <div class="hero-stat">
+                <div class="big-number" id="totalApps">950</div>
+                <div class="big-label">Apps Detected</div>
+                <div class="meta">
+                    <p>DETECTION_METHOD: MULTI_PHASE_ANALYSIS</p>
+                    <p>LAST_SCAN: <span id="lastScan">2025-12-03_17:45:22_UTC</span></p>
+                    <p>STATUS: OPERATIONAL</p>
+                </div>
+            </div>
+            
+            <div class="side-stats">
+                <div class="stat-card red">
+                    <div class="stat-number" id="explicitCount">906</div>
+                    <div class="stat-label">Explicit</div>
+                </div>
+                
+                <div class="stat-card blue">
+                    <div class="stat-number" id="temporalCount">44</div>
+                    <div class="stat-label">Temporal</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" id="totalResults">132K</div>
+                    <div class="stat-label">Total Results</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tool-section">
+            <div class="section-title">Detection Breakdown</div>
+            <div class="tool-grid" id="toolGrid"></div>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Automated detection of AI-generated repositories on GitHub.</p>
+                    <p>Multi-phase analysis: explicit mentions + temporal patterns.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Technical</h3>
+                    <p>DATA_SOURCE: GitHub API</p>
+                    <p>DETECTION_ENGINE: Claude Sonnet 4</p>
+                    <p>SCAN_FREQUENCY: Daily</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

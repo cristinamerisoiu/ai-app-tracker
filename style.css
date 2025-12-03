@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.hero-stat {
+    border: 1px solid #1a1a1a;
+    padding: 60px 40px;
+    background: #0f0f0f;
+}
+
+.big-number {
+    font-size: 5rem;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.big-label {
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.meta {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #1a1a1a;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.side-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stat-card {
+    border: 1px solid #1a1a1a;
+    padding: 25px;
+    background: #0f0f0f;
+}
+
+.stat-card.red {
+    border-left: 3px solid #ff0000;
+}
+
+.stat-card.blue {
+    border-left: 3px solid #0080ff;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tool-section {
+    border: 1px solid #1a1a1a;
+    padding: 40px;
+    background: #0f0f0f;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 15px;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tool-item {
+    border: 1px solid #1a1a1a;
+    padding: 20px;
+    background: #0a0a0a;
+}
+
+.tool-name {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.tool-count {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer {
+    border-top: 2px solid #1a1a1a;
+    padding-top: 30px;
+    margin-top: 60px;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-section h3 {
+    color: #999;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.footer-section p {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #0080ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 968px) {
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 968px) {
+    body {
+        padding: 20px 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .main-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .hero-stat {
+        padding: 40px 25px;
+    }
+    
+    .big-number {
+        font-size: 3.5rem;
+    }
+    
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .tool-item {
+        padding: 15px;
+    }
+    
+    .tool-count {
+        font-size: 1.5rem;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .big-number {
+        font-size: 2.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .tool-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tool-section {
+        padding: 25px 20px;
+    }
+}

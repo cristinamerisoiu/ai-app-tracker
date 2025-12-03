@@ -1,5 +1,4 @@
-const fs = require('fs');
-
+import fs from 'fs';
 // Load the existing data
 const data = JSON.parse(fs.readFileSync('ai-apps-complete.json', 'utf8'));
 

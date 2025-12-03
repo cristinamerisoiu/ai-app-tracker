@@ -14,48 +14,61 @@
             <p class="subtitle">Real-time detection of AI-generated applications</p>
         </header>
         
-        <div class="top-row">
-            <div class="stat-card primary">
+        <div class="legend-box">
+            <h4>What We Track</h4>
+            <div class="legend-grid">
+                <div class="legend-item">
+                    <span class="legend-label">Explicit Mentions</span>
+                    <span class="legend-text">Repositories that explicitly state "built with [AI tool]" in their README</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-label">Temporal Detection</span>
+                    <span class="legend-text">Apps built suspiciously fast (&lt;48 hours) with AI-like commit patterns</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-row">
+            <div class="stat-card">
                 <div class="stat-label">Total Apps Detected</div>
                 <div class="stat-value">950</div>
             </div>
             
-            <div class="stat-card accent-red">
+            <div class="stat-card">
                 <div class="stat-label">Explicit Mentions</div>
                 <div class="stat-value">906</div>
             </div>
             
-            <div class="stat-card accent-blue">
+            <div class="stat-card">
                 <div class="stat-label">Temporal Detection</div>
                 <div class="stat-value">44</div>
             </div>
         </div>
         
-        <div class="main-grid">
-            <div class="chart-section">
+        <div class="charts-row">
+            <div class="chart-box">
                 <h3>Detection Methods</h3>
-                <div class="chart-wrapper small">
-                    <canvas id="methodsChart"></canvas>
-                </div>
+                <canvas id="methodsChart"></canvas>
             </div>
             
-            <div class="chart-section">
+            <div class="chart-box">
                 <h3>Tool Distribution</h3>
-                <div class="chart-wrapper small">
-                    <canvas id="toolsChart"></canvas>
-                </div>
-            </div>
-            
-            <div class="chart-section large">
-                <h3>Top AI Tools</h3>
-                <div class="chart-wrapper">
-                    <canvas id="barsChart"></canvas>
-                </div>
+                <canvas id="toolsChart"></canvas>
             </div>
         </div>
         
+        <div class="chart-box full">
+            <h3>Top AI Tools</h3>
+            <canvas id="barsChart"></canvas>
+        </div>
+        
+        <div class="chart-box full">
+            <h3>App Categories</h3>
+            <canvas id="categoriesChart"></canvas>
+        </div>
+        
         <footer>
-            <p>GitHub API • Claude Sonnet 4 • Updated Dec 3, 2025</p>
+            <p>GitHub API • Claude Sonnet 4 • Dec 3, 2025</p>
         </footer>
     </div>
     

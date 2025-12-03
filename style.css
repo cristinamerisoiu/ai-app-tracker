@@ -5,11 +5,11 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
-    background: #0d0d0d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
     color: #e5e5e5;
     padding: 40px 20px;
-    line-height: 1.6;
+    min-height: 100vh;
 }
 
 .container {
@@ -18,155 +18,115 @@ body {
 }
 
 header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2.8rem;
+    font-weight: 700;
     color: #fff;
     margin-bottom: 8px;
+    letter-spacing: -1px;
 }
 
 .subtitle {
-    font-size: 1rem;
-    color: #888;
+    font-size: 1.1rem;
+    color: #ccc;
 }
 
-.stats-row {
+.stats-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 24px;
     margin-bottom: 40px;
 }
 
 .stat-card {
-    background: #161616;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    border: 1px solid #222;
+    background: rgba(22, 22, 26, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.stat-card.primary {
-    border-left: 4px solid #555;
+.stat-card.large {
+    border-left: 4px solid #666;
 }
 
-.stat-card.accent-red {
+.stat-card.red {
     border-left: 4px solid #ef4444;
 }
 
-.stat-card.accent-blue {
+.stat-card.blue {
     border-left: 4px solid #3b82f6;
 }
 
 .stat-value {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: 800;
     color: #fff;
     margin-bottom: 8px;
+    line-height: 1;
 }
 
 .stat-label {
-    font-size: 0.9rem;
-    color: #888;
+    font-size: 1rem;
+    color: #bbb;
     font-weight: 500;
 }
 
-.stat-meta {
-    font-size: 0.75rem;
-    color: #555;
+.stat-trend {
+    font-size: 0.85rem;
+    color: #3b82f6;
     margin-top: 12px;
 }
 
-.chart-section {
-    background: #161616;
-    border-radius: 12px;
-    padding: 40px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    border: 1px solid #222;
-    margin-bottom: 40px;
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
 }
 
-h2 {
-    font-size: 1.5rem;
+.chart-card {
+    background: rgba(22, 22, 26, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.chart-card.full {
+    grid-column: 1 / -1;
+}
+
+h3 {
+    font-size: 1.2rem;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 30px;
-}
-
-.tool-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.tool-bar {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.tool-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tool-name {
-    font-size: 0.95rem;
-    color: #aaa;
-    font-weight: 500;
-}
-
-.tool-count {
-    font-size: 1.1rem;
-    color: #fff;
-    font-weight: 600;
-}
-
-.bar-container {
-    width: 100%;
-    height: 8px;
-    background: #222;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.bar {
-    height: 100%;
-    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
-    border-radius: 4px;
-    transition: width 0.3s ease;
+    margin-bottom: 24px;
 }
 
 footer {
-    border-top: 1px solid #222;
-    padding-top: 30px;
     margin-top: 60px;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    font-size: 0.85rem;
-    color: #666;
-}
-
-.footer-content p {
-    margin-bottom: 6px;
-}
-
-.footer-content strong {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
     color: #aaa;
-    display: block;
-    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 8px;
 }
 
 @media (max-width: 1024px) {
-    .stats-row {
-        grid-template-columns: 1fr 1fr;
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .charts-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -179,15 +139,11 @@ footer {
         font-size: 2rem;
     }
     
-    .stats-row {
-        grid-template-columns: 1fr;
+    .stat-value {
+        font-size: 2.5rem;
     }
     
-    .chart-section {
-        padding: 25px;
-    }
-    
-    .footer-content {
-        grid-template-columns: 1fr;
+    .chart-card {
+        padding: 24px;
     }
 }

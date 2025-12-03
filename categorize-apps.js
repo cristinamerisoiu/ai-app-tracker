@@ -56,7 +56,7 @@ console.log('\nCategory Breakdown:');
 Object.entries(categoryCounts)
     .sort((a, b) => b[1] - a[1])
     .forEach(([category, count]) => {
-        console.log(`${category}: ${count}`);
+     console.log(`${category}: ${count}`);
     });
 
 // Save updated data

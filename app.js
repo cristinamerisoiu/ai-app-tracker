@@ -1,8 +1,6 @@
-// Chart.js default settings
 Chart.defaults.color = '#bbb';
 Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
 
-// Methods Pie Chart
 const methodsCtx = document.getElementById('methodsChart').getContext('2d');
 new Chart(methodsCtx, {
     type: 'doughnut',
@@ -34,7 +32,6 @@ new Chart(methodsCtx, {
     }
 });
 
-// Tools Donut Chart
 const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
@@ -71,7 +68,6 @@ new Chart(toolsCtx, {
     }
 });
 
-// Bar Chart
 const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',

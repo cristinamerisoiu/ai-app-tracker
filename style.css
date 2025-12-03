@@ -106,7 +106,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .chart-box {
@@ -119,6 +119,7 @@ h1 {
 
 .chart-box.full {
     height: 320px;
+    margin-top: 16px;
 }
 
 h3 {
@@ -156,9 +157,15 @@ footer {
     
     .charts-row {
         grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+    
+    .chart-box {
+        margin-bottom: 16px;
     }
     
     .chart-box.full {
-        height: 500px;
+        height: 600px;
+        margin-top: 16px;
     }
 }

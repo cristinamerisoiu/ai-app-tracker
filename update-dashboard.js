@@ -1,5 +1,4 @@
-const fs = require('fs');
-
+import fs from 'fs';
 // Read the categorized data
 const data = JSON.parse(fs.readFileSync('ai-apps-categorized.json', 'utf8'));
 

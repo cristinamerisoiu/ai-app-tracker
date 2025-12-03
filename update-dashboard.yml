@@ -1,16 +1,14 @@
 name: Update Dashboard Daily
-
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs daily at 2 AM UTC
-  workflow_dispatch:  # Allows manual trigger
-
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 jobs:
   update-data:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           clean: true
@@ -20,7 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-     - name: Install dependencies
+      
+      - name: Install dependencies
         run: |
           rm -rf node_modules package-lock.json
           npm install
@@ -40,6 +39,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add .
           git commit -m "Update dashboard data - $(date)" || exit 0
           git push

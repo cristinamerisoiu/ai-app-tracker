@@ -10,20 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
+    - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          clean: true
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      
-      - name: Install dependencies
-        run: npm install
+     - name: Install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
       
       - name: Run data collection
         env:
-          GITHUB_TOKEN: ${{ secrets.GHTOKEN }}
+          GHTOKEN: ${{ secrets.GHTOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           node collect-with-temporal.js

@@ -6,149 +6,155 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background: #0f1419;
     color: #e5e5e5;
     padding: 40px 20px;
     min-height: 100vh;
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 header {
-    margin-bottom: 40px;
-}
-
-h1 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 8px;
-}
-
-.subtitle {
-    font-size: 0.9rem;
-    color: #8892b0;
-}
-
-.top-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
     margin-bottom: 30px;
 }
 
+h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.legend-box {
+    background: #1a1f2e;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #252a3a;
+    margin-bottom: 20px;
+}
+
+.legend-box h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #9ca3af;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.legend-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.legend-text {
+    font-size: 0.75rem;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
 .stat-card {
-    background: rgba(30, 39, 73, 0.6);
-    backdrop-filter: blur(20px);
-    border-radius: 16px;
-    padding: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.stat-card.primary {
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(30, 39, 73, 0.6) 100%);
-}
-
-.stat-card.accent-red {
-    background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(30, 39, 73, 0.6) 100%);
-    border-left: 3px solid #ef4444;
-}
-
-.stat-card.accent-blue {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(30, 39, 73, 0.6) 100%);
-    border-left: 3px solid #3b82f6;
+    background: #1a1f2e;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #252a3a;
 }
 
 .stat-label {
-    font-size: 0.8rem;
-    color: #8892b0;
+    font-size: 0.75rem;
+    color: #6b7280;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .stat-value {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #fff;
-    line-height: 1;
 }
 
-.main-grid {
+.charts-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 16px;
+    margin-bottom: 16px;
 }
 
-.chart-section {
-    background: rgba(30, 39, 73, 0.6);
-    backdrop-filter: blur(20px);
-    border-radius: 16px;
-    padding: 28px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+.chart-box {
+    background: #1a1f2e;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #252a3a;
+    height: 280px;
 }
 
-.chart-section.large {
-    grid-column: 1 / -1;
+.chart-box.full {
+    height: 320px;
 }
 
 h3 {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 600;
-    color: #fff;
-    margin-bottom: 24px;
+    color: #9ca3af;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.chart-wrapper {
-    position: relative;
-    height: 300px;
+canvas {
+    max-height: 200px !important;
 }
 
-.chart-wrapper.small {
-    height: 100px;
+.chart-box.full canvas {
+    max-height: 240px !important;
 }
 
 footer {
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 30px;
     text-align: center;
-    color: #4a5568;
+    color: #4b5563;
     font-size: 0.75rem;
 }
 
 @media (max-width: 1024px) {
-    .top-row {
+    .legend-grid {
         grid-template-columns: 1fr;
     }
     
-    .main-grid {
+    .stats-row {
         grid-template-columns: 1fr;
     }
-}
-
-@media (max-width: 768px) {
-    body {
-        padding: 20px 15px;
-    }
     
-    h1 {
-        font-size: 1.5rem;
-    }
-    
-    .stat-value {
-        font-size: 2.2rem;
-    }
-    
-    .chart-wrapper {
-        height: 250px;
-    }
-    
-    .chart-wrapper.small {
-        height: 200px;
+    .charts-row {
+        grid-template-columns: 1fr;
     }
 }

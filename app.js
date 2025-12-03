@@ -13,7 +13,7 @@ new Chart(methodsCtx, {
                 'rgba(59, 130, 246, 0.9)'
             ],
             borderWidth: 0,
-            cutout: '70%'
+            cutout: '50%'
         }]
     },
     options: {

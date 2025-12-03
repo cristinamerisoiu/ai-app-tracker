@@ -5,11 +5,11 @@
 }
 
 body {
-    font-family: 'Courier New', monospace;
-    background: #0a0a0a;
-    color: #e0e0e0;
-    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    background: #0d0d0d;
+    color: #e5e5e5;
     padding: 40px 20px;
+    line-height: 1.6;
 }
 
 .container {
@@ -18,250 +18,176 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #1a1a1a;
-    padding-bottom: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 2.5rem;
-    font-weight: normal;
-    margin-bottom: 10px;
+    font-weight: 600;
     color: #fff;
+    margin-bottom: 8px;
 }
 
 .subtitle {
     font-size: 1rem;
-    color: #666;
-    margin-bottom: 15px;
+    color: #888;
 }
 
-.tagline {
-    font-size: 0.9rem;
-    color: #999;
-    font-style: italic;
-}
-
-.main-grid {
+.stats-row {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 40px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
-.hero-stat {
-    border: 1px solid #1a1a1a;
-    padding: 60px 40px;
-    background: #0f0f0f;
+.stat-card {
+    background: #161616;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid #222;
 }
 
-.big-number {
-    font-size: 5rem;
-    font-weight: normal;
+.stat-card.primary {
+    border-left: 4px solid #555;
+}
+
+.stat-card.accent-red {
+    border-left: 4px solid #ef4444;
+}
+
+.stat-card.accent-blue {
+    border-left: 4px solid #3b82f6;
+}
+
+.stat-value {
+    font-size: 3rem;
+    font-weight: 700;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-.big-label {
-    font-size: 1.1rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.stat-label {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 500;
 }
 
-.meta {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #1a1a1a;
-    font-size: 0.85rem;
+.stat-meta {
+    font-size: 0.75rem;
     color: #555;
+    margin-top: 12px;
 }
 
-.side-stats {
+.chart-section {
+    background: #161616;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid #222;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.tool-grid {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.stat-card {
-    border: 1px solid #1a1a1a;
-    padding: 25px;
-    background: #0f0f0f;
+.tool-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.stat-card.red {
-    border-left: 3px solid #ff0000;
-}
-
-.stat-card.blue {
-    border-left: 3px solid #0080ff;
-}
-
-.stat-number {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 5px;
-}
-
-.stat-label {
-    font-size: 0.85rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.tool-section {
-    border: 1px solid #1a1a1a;
-    padding: 40px;
-    background: #0f0f0f;
-    margin-bottom: 40px;
-}
-
-.section-title {
-    font-size: 1.2rem;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #1a1a1a;
-    padding-bottom: 15px;
-}
-
-.tool-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.tool-item {
-    border: 1px solid #1a1a1a;
-    padding: 20px;
-    background: #0a0a0a;
+.tool-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .tool-name {
-    font-size: 0.9rem;
-    color: #999;
-    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #aaa;
+    font-weight: 500;
 }
 
 .tool-count {
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: #fff;
+    font-weight: 600;
 }
 
-.footer {
-    border-top: 2px solid #1a1a1a;
+.bar-container {
+    width: 100%;
+    height: 8px;
+    background: #222;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+footer {
+    border-top: 1px solid #222;
     padding-top: 30px;
     margin-top: 60px;
-    color: #555;
-    font-size: 0.85rem;
 }
 
-.footer-grid {
+.footer-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    font-size: 0.85rem;
+    color: #666;
 }
 
-.footer-section h3 {
-    color: #999;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    font-weight: normal;
+.footer-content p {
+    margin-bottom: 6px;
 }
 
-.footer-section p {
-    margin-bottom: 8px;
+.footer-content strong {
+    color: #aaa;
+    display: block;
+    margin-bottom: 10px;
 }
 
-a {
-    color: #0080ff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 968px) {
-    .main-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .tool-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .footer-grid {
-        grid-template-columns: 1fr;
+@media (max-width: 1024px) {
+    .stats-row {
+        grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 968px) {
+
+@media (max-width: 768px) {
     body {
         padding: 20px 15px;
     }
     
     h1 {
-        font-size: 1.8rem;
-    }
-    
-    .main-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .hero-stat {
-        padding: 40px 25px;
-    }
-    
-    .big-number {
-        font-size: 3.5rem;
-    }
-    
-    .tool-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-    }
-    
-    .tool-item {
-        padding: 15px;
-    }
-    
-    .tool-count {
-        font-size: 1.5rem;
-    }
-    
-    .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-}
-
-@media (max-width: 580px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-    
-    .subtitle {
-        font-size: 0.85rem;
-    }
-    
-    .big-number {
-        font-size: 2.5rem;
-    }
-    
-    .stat-number {
         font-size: 2rem;
     }
     
-    .tool-grid {
+    .stats-row {
         grid-template-columns: 1fr;
     }
     
-    .tool-section {
-        padding: 25px 20px;
+    .chart-section {
+        padding: 25px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
     }
 }

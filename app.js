@@ -1,5 +1,6 @@
-Chart.defaults.color = '#8892b0';
+Chart.defaults.color = '#6b7280';
 Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+Chart.defaults.font.size = 11;
 
 const methodsCtx = document.getElementById('methodsChart').getContext('2d');
 new Chart(methodsCtx, {
@@ -9,26 +10,24 @@ new Chart(methodsCtx, {
         datasets: [{
             data: [906, 44],
             backgroundColor: [
-                'rgba(239, 68, 68, 0.9)',
-                'rgba(59, 130, 246, 0.9)'
+                '#dc2626',
+                '#3b82f6'
             ],
             borderWidth: 0,
-            cutout: '50%'
+            cutout: '75%'
         }]
     },
     options: {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: true,
         plugins: {
             legend: {
                 position: 'right',
                 labels: {
-                    padding: 15,
-                    font: {
-                        size: 12
-                    },
-                    usePointStyle: true,
-                    pointStyle: 'circle'
+                    padding: 12,
+                    boxWidth: 12,
+                    boxHeight: 12,
+                    usePointStyle: true
                 }
             }
         }
@@ -39,34 +38,32 @@ const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
     data: {
-        labels: ['AI Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Other'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Other'],
         datasets: [{
             data: [303, 100, 100, 100, 100, 247],
             backgroundColor: [
-                'rgba(139, 92, 246, 0.9)',
-                'rgba(59, 130, 246, 0.9)',
-                'rgba(16, 185, 129, 0.9)',
-                'rgba(245, 158, 11, 0.9)',
-                'rgba(239, 68, 68, 0.9)',
-                'rgba(100, 116, 139, 0.9)'
+                '#8b5cf6',
+                '#3b82f6',
+                '#10b981',
+                '#f59e0b',
+                '#dc2626',
+                '#6b7280'
             ],
             borderWidth: 0,
-            cutout: '70%'
+            cutout: '75%'
         }]
     },
     options: {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: true,
         plugins: {
             legend: {
                 position: 'right',
                 labels: {
-                    padding: 12,
-                    font: {
-                        size: 11
-                    },
-                    usePointStyle: true,
-                    pointStyle: 'circle'
+                    padding: 8,
+                    boxWidth: 12,
+                    boxHeight: 12,
+                    usePointStyle: true
                 }
             }
         }
@@ -77,38 +74,64 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['AI Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'Temporal', 'Copilot', 'v0.dev', 'Replit'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Lovable', 'Wind', 'Temp', 'Copilot', 'v0', 'Replit'],
         datasets: [{
             data: [303, 100, 100, 100, 100, 100, 50, 44, 22, 21, 10],
-            backgroundColor: 'rgba(59, 130, 246, 0.85)',
-            borderRadius: 6,
-            barThickness: 35
+            backgroundColor: '#3b82f6',
+            borderRadius: 4
         }]
     },
     options: {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: true,
         scales: {
             y: {
                 beginAtZero: true,
                 grid: {
-                    color: 'rgba(255, 255, 255, 0.05)',
+                    color: '#252a3a',
                     drawBorder: false
-                },
-                ticks: {
-                    font: {
-                        size: 11
-                    }
                 }
             },
             x: {
                 grid: {
                     display: false
-                },
-                ticks: {
-                    font: {
-                        size: 11
-                    }
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
+    }
+});
+
+const categoriesCtx = document.getElementById('categoriesChart').getContext('2d');
+new Chart(categoriesCtx, {
+    type: 'bar',
+    data: {
+        labels: ['Other', 'AI/ML Tools', 'SaaS', 'Design', 'Dev Tools', 'Productivity', 'Social', 'Entertainment', 'E-commerce'],
+        datasets: [{
+            data: [323, 200, 83, 72, 53, 48, 45, 38, 25],
+            backgroundColor: '#8b5cf6',
+            borderRadius: 4
+        }]
+    },
+    options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: true,
+        scales: {
+            x: {
+                beginAtZero: true,
+                grid: {
+                    color: '#252a3a',
+                    drawBorder: false
+                }
+            },
+            y: {
+                grid: {
+                    display: false
                 }
             }
         },

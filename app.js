@@ -140,7 +140,7 @@ new Chart(categoriesCtx, {
                 },
                 ticks: {
                     font: {
-                        size: 9
+                        size: 8
                     }
                 }
             }

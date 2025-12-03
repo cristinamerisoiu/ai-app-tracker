@@ -162,10 +162,17 @@ footer {
     
     .chart-box {
         margin-bottom: 16px;
+        padding: 16px;
+        width: 100%;
     }
     
     .chart-box.full {
-        height: 600px;
+        height: 700px;
         margin-top: 16px;
+        padding: 16px;
+    }
+    
+    canvas {
+        max-height: none !important;
     }
 }

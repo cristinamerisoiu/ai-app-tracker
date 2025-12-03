@@ -127,11 +127,21 @@ new Chart(categoriesCtx, {
                 grid: {
                     color: '#252a3a',
                     drawBorder: false
+                },
+                ticks: {
+                    font: {
+                        size: 10
+                    }
                 }
             },
             y: {
                 grid: {
                     display: false
+                },
+                ticks: {
+                    font: {
+                        size: 9
+                    }
                 }
             }
         },

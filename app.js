@@ -120,7 +120,7 @@ new Chart(categoriesCtx, {
     options: {
         indexAxis: 'y',
         responsive: true,
-        maintainAspectRatio: true,
+        maintainAspectRatio: false,
         scales: {
             x: {
                 beginAtZero: true,

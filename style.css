@@ -118,3 +118,13 @@ footer {
         margin-top: 0;
     }
 }
+/* Categories chart - fixed height for all labels on mobile */
+#categoriesChart {
+    height: 450px;
+}
+
+@media (min-width: 768px) {
+    #categoriesChart {
+        height: 400px;
+    }
+}

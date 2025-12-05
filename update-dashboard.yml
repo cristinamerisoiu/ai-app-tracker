@@ -1,18 +1,20 @@
 name: Update Dashboard Daily
+
 on:
   schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
+    - cron: '0 2 * * *'  # Runs at 2 AM UTC daily
+  workflow_dispatch:  # Allow manual trigger
+
 jobs:
-  update-data:
+  update-dashboard:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          clean: true
-          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -20,26 +22,28 @@ jobs:
           node-version: '18'
       
       - name: Install dependencies
-        run: |
-          rm -rf node_modules package-lock.json
-          npm install
+        run: npm install
       
-      - name: Run data collection
+      - name: Collect AI apps data
         env:
           GHTOKEN: ${{ secrets.GHTOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          node collect-with-temporal.js
-          node categorize-apps.js
+        run: node collect-with-temporal.js
       
-      - name: Update dashboard with new data
+      - name: Categorize apps
+        run: node categorize-apps.js
+      
+      - name: Track daily stats
+        run: node track-daily-stats.js
+      
+      - name: Update dashboard files
         run: node update-dashboard.js
       
-  - name: Commit and push changes
+      - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update dashboard data - $(date)" || exit 0
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git pull origin main --rebase --autostash
+          git add .
+          git commit -m "Update dashboard daily" || exit 0
           git push origin HEAD:main

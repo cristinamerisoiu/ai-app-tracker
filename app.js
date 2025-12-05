@@ -121,7 +121,6 @@ new Chart(categoriesCtx, {
         indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: true,
-        aspectRatio: 0.6,
         scales: {
             x: {
                 beginAtZero: true,

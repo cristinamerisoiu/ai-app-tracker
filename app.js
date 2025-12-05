@@ -38,9 +38,9 @@ const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
     data: {
-        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Other'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 250],
+            data: [303, 100, 100, 100, 100, 247],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -74,9 +74,9 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Lovable', 'Wind', 'Temp', 'Copilot', 'v0', 'Replit'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 100, 50, 46, 22, 21, 11],
+            data: [303, 100, 100, 100, 100, 100, 50, 44, 22, 21, 10],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -106,76 +106,11 @@ new Chart(barsCtx, {
     }
 });
 
-// Growth Over Time chart
-const GROWTH_DATA = {
-    dates: ["2025-12-05"],
-    totals: [953]
-};
-
-const growthCtx = document.getElementById('growthChart').getContext('2d');
-new Chart(growthCtx, {
-    type: 'line',
-    data: {
-        labels: GROWTH_DATA.dates,
-        datasets: [{
-            label: 'Total Apps',
-            data: GROWTH_DATA.totals,
-            borderColor: '#58a6ff',
-            backgroundColor: 'rgba(88, 166, 255, 0.1)',
-            borderWidth: 2,
-            fill: true,
-            tension: 0.4,
-            pointRadius: 4,
-            pointHoverRadius: 6
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: true,
-        scales: {
-            y: {
-                beginAtZero: false,
-                grid: {
-                    color: '#252a3a',
-                    drawBorder: false
-                },
-                ticks: {
-                    font: {
-                        size: 10
-                    }
-                }
-            },
-            x: {
-                grid: {
-                    display: false
-                },
-                ticks: {
-                    font: {
-                        size: 10
-                    }
-                }
-            }
-        },
-        plugins: {
-            legend: {
-                display: false
-            },
-            tooltip: {
-                callbacks: {
-                    label: function(context) {
-                        return 'Apps: ' + context.parsed.y;
-                    }
-                }
-            }
-        }
-    }
-});
-
 const categoriesCtx = document.getElementById('categoriesChart').getContext('2d');
 new Chart(categoriesCtx, {
     type: 'bar',
     data: {
-        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","E-commerce"],
+        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
         datasets: [{
             data: [329,196,85,73,50,47,45,39,24],
             backgroundColor: '#8b5cf6',
@@ -213,6 +148,93 @@ new Chart(categoriesCtx, {
         plugins: {
             legend: {
                 display: false
+            }
+        }
+    }
+});
+
+// Growth Over Time chart - compact style
+const GROWTH_DATA = {
+    dates: ["Dec 5"],
+    totals: [953]
+};
+
+const growthCtx = document.getElementById('growthChart').getContext('2d');
+new Chart(growthCtx, {
+    type: 'line',
+    data: {
+        labels: GROWTH_DATA.dates,
+        datasets: [{
+            data: GROWTH_DATA.totals,
+            borderColor: '#58a6ff',
+            backgroundColor: (context) => {
+                const ctx = context.chart.ctx;
+                const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+                gradient.addColorStop(0, 'rgba(88, 166, 255, 0.2)');
+                gradient.addColorStop(1, 'rgba(88, 166, 255, 0.05)');
+                return gradient;
+            },
+            borderWidth: 2,
+            fill: true,
+            tension: 0.4,
+            pointRadius: 5,
+            pointHoverRadius: 7,
+            pointBackgroundColor: '#58a6ff',
+            pointBorderColor: '#1a1f2e',
+            pointBorderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: false,
+                grid: {
+                    color: '#252a3a',
+                    drawBorder: false
+                },
+                ticks: {
+                    font: {
+                        size: 10
+                    },
+                    color: '#6b7280'
+                }
+            },
+            x: {
+                grid: {
+                    display: false,
+                    drawBorder: true,
+                    borderColor: '#252a3a'
+                },
+                ticks: {
+                    font: {
+                        size: 11
+                    },
+                    color: '#6b7280'
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                backgroundColor: '#1a1f2e',
+                titleColor: '#e5e5e5',
+                bodyColor: '#8b949e',
+                borderColor: '#252a3a',
+                borderWidth: 1,
+                padding: 10,
+                displayColors: false,
+                callbacks: {
+                    title: function(context) {
+                        return context[0].label;
+                    },
+                    label: function(context) {
+                        return 'Total Apps: ' + context.parsed.y;
+                    }
+                }
             }
         }
     }

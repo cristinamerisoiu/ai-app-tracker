@@ -75,17 +75,33 @@ appJs = appJs.replace(
     `$1${barCounts.join(', ')}$2`
 );
 
-// 4. Update Categories chart (categoriesChart)
-const categoriesLabels = labels.map(l => `"${l}"`).join(',');
-const categoriesCounts = counts.join(',');
+// 4. Update Categories charts
+// Top 9 for main chart (always visible)
+const top9Categories = sortedCategories.slice(0, 9);
+const top9Labels = top9Categories.map(c => c[0]);
+const top9Counts = top9Categories.map(c => c[1]);
 
+// Categories 10+ for dropdown
+const restCategories = sortedCategories.slice(9);
+const restLabels = restCategories.map(c => c[0]);
+const restCounts = restCategories.map(c => c[1]);
+
+// Update CATEGORIES_TOP9
 appJs = appJs.replace(
-    /(const categoriesCtx[\s\S]*?labels: \[)[^\]]+(\])/,
-    `$1${categoriesLabels}$2`
+    /const CATEGORIES_TOP9 = \{[\s\S]*?labels: \[[^\]]+\],[\s\S]*?data: \[[^\]]+\][\s\S]*?\};/,
+    `const CATEGORIES_TOP9 = {
+    labels: [${top9Labels.map(l => `"${l}"`).join(',')}],
+    data: [${top9Counts.join(',')}]
+};`
 );
+
+// Update ALL_CATEGORIES (categories 10+)
 appJs = appJs.replace(
-    /(const categoriesCtx[\s\S]*?datasets: \[\{[\s\S]*?data: \[)[^\]]+(\])/,
-    `$1${categoriesCounts}$2`
+    /const ALL_CATEGORIES = \{[\s\S]*?labels: \[[^\]]+\],[\s\S]*?data: \[[^\]]+\][\s\S]*?\};/,
+    `const ALL_CATEGORIES = {
+    labels: [${restLabels.map(l => `"${l}"`).join(',')}],
+    data: [${restCounts.join(',')}]
+};`
 );
 
 // Write updated app.js

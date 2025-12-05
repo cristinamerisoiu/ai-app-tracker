@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [0, 0],
+            data: [906, 44],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'

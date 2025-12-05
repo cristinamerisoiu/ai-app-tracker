@@ -128,3 +128,50 @@ footer {
         height: 400px;
     }
 }
+/* Add these to the END of your existing style.css */
+
+/* More categories section */
+.more-categories-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.more-categories-header label {
+    font-size: 0.85rem;
+    color: #9ca3af;
+    font-weight: 600;
+}
+
+.category-dropdown {
+    background: #252a3a;
+    color: #e5e5e5;
+    border: 1px solid #3d4358;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.category-dropdown:hover {
+    border-color: #4d5368;
+}
+
+.category-dropdown:focus {
+    border-color: #58a6ff;
+}
+
+@media (max-width: 768px) {
+    .more-categories-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .category-dropdown {
+        width: 100%;
+    }
+}

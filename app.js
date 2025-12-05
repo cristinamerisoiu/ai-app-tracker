@@ -38,9 +38,9 @@ const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
     data: {
-        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Other'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 250],
+            data: [303, 100, 100, 100, 100, 247],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -74,9 +74,9 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
+        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Lovable', 'Wind', 'Temp', 'Copilot', 'v0', 'Replit'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 100, 50, 46, 22, 21, 11],
+            data: [303, 100, 100, 100, 100, 100, 50, 44, 22, 21, 10],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -106,13 +106,19 @@ new Chart(barsCtx, {
     }
 });
 
+// Top 9 categories chart (always visible)
+const CATEGORIES_TOP9 = {
+    labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
+    data: [329,196,85,73,50,47,45,39,24]
+};
+
 const categoriesCtx = document.getElementById('categoriesChart').getContext('2d');
 new Chart(categoriesCtx, {
     type: 'bar',
     data: {
-        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
+        labels: CATEGORIES_TOP9.labels,
         datasets: [{
-            data: [329,196,85,73,50,47,45,39,24],
+            data: CATEGORIES_TOP9.data,
             backgroundColor: '#8b5cf6',
             borderRadius: 4
         }]
@@ -151,4 +157,100 @@ new Chart(categoriesCtx, {
             }
         }
     }
+});
+
+// All categories data (for dropdown)
+const ALL_CATEGORIES = {
+    labels: ["E-commerce","Finance","Healthcare","Travel/Tourism","Real Estate","Food/Restaurant","Security/Privacy","Automation/Bot","Documentation","Template/Boilerplate","Utilities","Infrastructure","Data/Analytics","Blockchain/Web3","Landing Page","Blog/Content"],
+    data: [24,7,10,5,0,6,0,0,0,0,0,0,0,0,11,2]
+};
+
+// More categories chart (hidden by default)
+const moreCategoriesCtx = document.getElementById('moreCategoriesChart').getContext('2d');
+let moreCategoriesChart = null;
+
+// Dropdown handler
+document.getElementById('moreCategoriesSelect').addEventListener('change', function(e) {
+    const selection = e.target.value;
+    const canvas = document.getElementById('moreCategoriesChart');
+    
+    if (!selection) {
+        canvas.style.display = 'none';
+        if (moreCategoriesChart) {
+            moreCategoriesChart.destroy();
+            moreCategoriesChart = null;
+        }
+        return;
+    }
+    
+    // Get the range of categories to show
+    let startIdx, endIdx;
+    if (selection === '10-15') {
+        startIdx = 0;
+        endIdx = 6;
+    } else if (selection === '16-20') {
+        startIdx = 6;
+        endIdx = 11;
+    } else if (selection === '21-24') {
+        startIdx = 11;
+        endIdx = 16;
+    }
+    
+    const labels = ALL_CATEGORIES.labels.slice(startIdx, endIdx);
+    const data = ALL_CATEGORIES.data.slice(startIdx, endIdx);
+    
+    // Show canvas
+    canvas.style.display = 'block';
+    
+    // Destroy existing chart if any
+    if (moreCategoriesChart) {
+        moreCategoriesChart.destroy();
+    }
+    
+    // Create new chart
+    moreCategoriesChart = new Chart(moreCategoriesCtx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: data,
+                backgroundColor: '#8b5cf6',
+                borderRadius: 4
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: true,
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    grid: {
+                        color: '#252a3a',
+                        drawBorder: false
+                    },
+                    ticks: {
+                        font: {
+                            size: 10
+                        }
+                    }
+                },
+                y: {
+                    grid: {
+                        display: false
+                    },
+                    ticks: {
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
 });

@@ -167,13 +167,14 @@ new Chart(growthCtx, {
         datasets: [{
             data: GROWTH_DATA.totals,
             borderColor: '#58a6ff',
-            backgroundColor: (context) => {
-                const ctx = context.chart.ctx;
+      backgroundColor: (() => {
+                const canvas = document.getElementById('growthChart');
+                const ctx = canvas.getContext('2d');
                 const gradient = ctx.createLinearGradient(0, 0, 0, 200);
                 gradient.addColorStop(0, 'rgba(88, 166, 255, 0.2)');
                 gradient.addColorStop(1, 'rgba(88, 166, 255, 0.05)');
                 return gradient;
-            },
+            })(),
             borderWidth: 2,
             fill: true,
             tension: 0.4,

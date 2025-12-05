@@ -153,90 +153,96 @@ new Chart(categoriesCtx, {
     }
 });
 
-// Growth Over Time chart - compact style
+// Growth Over Time chart
 const GROWTH_DATA = {
     dates: ["Dec 5"],
     totals: [953]
 };
 
-const growthCtx = document.getElementById('growthChart').getContext('2d');
-new Chart(growthCtx, {
-    type: 'line',
-    data: {
-        labels: GROWTH_DATA.dates,
-        datasets: [{
-            data: GROWTH_DATA.totals,
-            borderColor: '#58a6ff',
-      backgroundColor: (() => {
-                const canvas = document.getElementById('growthChart');
-                const ctx = canvas.getContext('2d');
-                const gradient = ctx.createLinearGradient(0, 0, 0, 200);
-                gradient.addColorStop(0, 'rgba(88, 166, 255, 0.2)');
-                gradient.addColorStop(1, 'rgba(88, 166, 255, 0.05)');
-                return gradient;
-            })(),
-            borderWidth: 2,
-            fill: true,
-            tension: 0.4,
-            pointRadius: 5,
-            pointHoverRadius: 7,
-            pointBackgroundColor: '#58a6ff',
-            pointBorderColor: '#1a1f2e',
-            pointBorderWidth: 2
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-            y: {
-                beginAtZero: false,
-                grid: {
-                    color: '#252a3a',
-                    drawBorder: false
-                },
-                ticks: {
-                    font: {
-                        size: 10
-                    },
-                    color: '#6b7280'
-                }
-            },
-            x: {
-                grid: {
-                    display: false,
-                    drawBorder: true,
-                    borderColor: '#252a3a'
-                },
-                ticks: {
-                    font: {
-                        size: 11
-                    },
-                    color: '#6b7280'
-                }
-            }
+// Wait for DOM to be fully ready
+if (document.getElementById('growthChart')) {
+    const growthCanvas = document.getElementById('growthChart');
+    const growthCtx = growthCanvas.getContext('2d');
+    
+    // Create gradient once, outside of Chart.js
+    const gradient = growthCtx.createLinearGradient(0, 0, 0, 200);
+    gradient.addColorStop(0, 'rgba(88, 166, 255, 0.2)');
+    gradient.addColorStop(1, 'rgba(88, 166, 255, 0.05)');
+    
+    new Chart(growthCtx, {
+        type: 'line',
+        data: {
+            labels: GROWTH_DATA.dates,
+            datasets: [{
+                data: GROWTH_DATA.totals,
+                borderColor: '#58a6ff',
+                backgroundColor: gradient,
+                borderWidth: 2,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 5,
+                pointHoverRadius: 7,
+                pointBackgroundColor: '#58a6ff',
+                pointBorderColor: '#1a1f2e',
+                pointBorderWidth: 2
+            }]
         },
-        plugins: {
-            legend: {
-                display: false
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            animation: {
+                duration: 0
             },
-            tooltip: {
-                backgroundColor: '#1a1f2e',
-                titleColor: '#e5e5e5',
-                bodyColor: '#8b949e',
-                borderColor: '#252a3a',
-                borderWidth: 1,
-                padding: 10,
-                displayColors: false,
-                callbacks: {
-                    title: function(context) {
-                        return context[0].label;
+            scales: {
+                y: {
+                    beginAtZero: false,
+                    grid: {
+                        color: '#252a3a',
+                        drawBorder: false
                     },
-                    label: function(context) {
-                        return 'Total Apps: ' + context.parsed.y;
+                    ticks: {
+                        font: {
+                            size: 10
+                        },
+                        color: '#6b7280'
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false,
+                        drawBorder: true,
+                        borderColor: '#252a3a'
+                    },
+                    ticks: {
+                        font: {
+                            size: 11
+                        },
+                        color: '#6b7280'
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    backgroundColor: '#1a1f2e',
+                    titleColor: '#e5e5e5',
+                    bodyColor: '#8b949e',
+                    borderColor: '#252a3a',
+                    borderWidth: 1,
+                    padding: 10,
+                    displayColors: false,
+                    callbacks: {
+                        title: function(context) {
+                            return context[0].label;
+                        },
+                        label: function(context) {
+                            return 'Total Apps: ' + context.parsed.y;
+                        }
                     }
                 }
             }
         }
-    }
-});
+    });
+}

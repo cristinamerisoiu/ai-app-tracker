@@ -106,19 +106,78 @@ new Chart(barsCtx, {
     }
 });
 
-// Top 9 categories chart (always visible)
-const CATEGORIES_TOP9 = {
-    labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
-    data: [329,196,85,73,50,47,45,39,24]
+// Growth Over Time chart
+const GROWTH_DATA = {
+    dates: ["2025-12-05"],
+    totals: [953]
 };
+
+const growthCtx = document.getElementById('growthChart').getContext('2d');
+new Chart(growthCtx, {
+    type: 'line',
+    data: {
+        labels: GROWTH_DATA.dates,
+        datasets: [{
+            label: 'Total Apps',
+            data: GROWTH_DATA.totals,
+            borderColor: '#58a6ff',
+            backgroundColor: 'rgba(88, 166, 255, 0.1)',
+            borderWidth: 2,
+            fill: true,
+            tension: 0.4,
+            pointRadius: 4,
+            pointHoverRadius: 6
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        scales: {
+            y: {
+                beginAtZero: false,
+                grid: {
+                    color: '#252a3a',
+                    drawBorder: false
+                },
+                ticks: {
+                    font: {
+                        size: 10
+                    }
+                }
+            },
+            x: {
+                grid: {
+                    display: false
+                },
+                ticks: {
+                    font: {
+                        size: 10
+                    }
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return 'Apps: ' + context.parsed.y;
+                    }
+                }
+            }
+        }
+    }
+});
 
 const categoriesCtx = document.getElementById('categoriesChart').getContext('2d');
 new Chart(categoriesCtx, {
     type: 'bar',
     data: {
-        labels: CATEGORIES_TOP9.labels,
+        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","E-commerce"],
         datasets: [{
-            data: CATEGORIES_TOP9.data,
+            data: [329,196,85,73,50,47,45,39,24],
             backgroundColor: '#8b5cf6',
             borderRadius: 4
         }]
@@ -157,100 +216,4 @@ new Chart(categoriesCtx, {
             }
         }
     }
-});
-
-// All categories data (for dropdown)
-const ALL_CATEGORIES = {
-    labels: ["E-commerce","Finance","Healthcare","Travel/Tourism","Real Estate","Food/Restaurant","Security/Privacy","Automation/Bot","Documentation","Template/Boilerplate","Utilities","Infrastructure","Data/Analytics","Blockchain/Web3","Landing Page","Blog/Content"],
-    data: [24,7,10,5,0,6,0,0,0,0,0,0,0,0,11,2]
-};
-
-// More categories chart (hidden by default)
-const moreCategoriesCtx = document.getElementById('moreCategoriesChart').getContext('2d');
-let moreCategoriesChart = null;
-
-// Dropdown handler
-document.getElementById('moreCategoriesSelect').addEventListener('change', function(e) {
-    const selection = e.target.value;
-    const canvas = document.getElementById('moreCategoriesChart');
-    
-    if (!selection) {
-        canvas.style.display = 'none';
-        if (moreCategoriesChart) {
-            moreCategoriesChart.destroy();
-            moreCategoriesChart = null;
-        }
-        return;
-    }
-    
-    // Get the range of categories to show
-    let startIdx, endIdx;
-    if (selection === '10-15') {
-        startIdx = 0;
-        endIdx = 6;
-    } else if (selection === '16-20') {
-        startIdx = 6;
-        endIdx = 11;
-    } else if (selection === '21-24') {
-        startIdx = 11;
-        endIdx = 16;
-    }
-    
-    const labels = ALL_CATEGORIES.labels.slice(startIdx, endIdx);
-    const data = ALL_CATEGORIES.data.slice(startIdx, endIdx);
-    
-    // Show canvas
-    canvas.style.display = 'block';
-    
-    // Destroy existing chart if any
-    if (moreCategoriesChart) {
-        moreCategoriesChart.destroy();
-    }
-    
-    // Create new chart
-    moreCategoriesChart = new Chart(moreCategoriesCtx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                data: data,
-                backgroundColor: '#8b5cf6',
-                borderRadius: 4
-            }]
-        },
-        options: {
-            indexAxis: 'y',
-            responsive: true,
-            maintainAspectRatio: true,
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    grid: {
-                        color: '#252a3a',
-                        drawBorder: false
-                    },
-                    ticks: {
-                        font: {
-                            size: 10
-                        }
-                    }
-                },
-                y: {
-                    grid: {
-                        display: false
-                    },
-                    ticks: {
-                        font: {
-                            size: 12
-                        }
-                    }
-                }
-            },
-            plugins: {
-                legend: {
-                    display: false
-                }
-            }
-        }
-    });
 });

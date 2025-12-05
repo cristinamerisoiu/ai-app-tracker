@@ -62,3 +62,9 @@ Object.entries(categoryCounts)
 // Save updated data
 fs.writeFileSync('ai-apps-categorized.json', JSON.stringify(data, null, 2));
 console.log('\n✓ Saved to ai-apps-categorized.json');
+// Log sample of "Other" apps to see what we're missing
+const otherApps = apps.filter(app => app.category === 'Other').slice(0, 20);
+console.log('\nSample of "Other" category apps:');
+otherApps.forEach(app => {
+    console.log(`- ${app.full_name}: ${app.description || 'No description'}`);
+});

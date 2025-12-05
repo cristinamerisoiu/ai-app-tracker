@@ -170,6 +170,11 @@ footer {
         align-items: flex-start;
         gap: 8px;
     }
+    /* Add this to the END of your style.css */
+
+.growth-chart-box canvas {
+    height: 220px !important;
+}
     
     .category-dropdown {
         width: 100%;

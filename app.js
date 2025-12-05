@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [906, 44],
+            data: [907, 46],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -38,9 +38,9 @@ const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
     data: {
-        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Other'],
+        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 247],
+            data: [303, 100, 100, 100, 100, 250],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -74,9 +74,9 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['Generic', 'Claude', 'ChatGPT', 'Cursor', 'Bolt', 'Lovable', 'Wind', 'Temp', 'Copilot', 'v0', 'Replit'],
+        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 100, 50, 44, 22, 21, 10],
+            data: [303, 100, 100, 100, 100, 100, 50, 46, 22, 21, 11],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -110,9 +110,9 @@ const categoriesCtx = document.getElementById('categoriesChart').getContext('2d'
 new Chart(categoriesCtx, {
     type: 'bar',
     data: {
-        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","E-commerce"],
+        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
         datasets: [{
-            data: [322,201,83,72,52,48,45,39,25],
+            data: [329,196,85,73,50,47,45,39,24],
             backgroundColor: '#8b5cf6',
             borderRadius: 4
         }]

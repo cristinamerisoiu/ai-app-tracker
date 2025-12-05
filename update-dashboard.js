@@ -107,6 +107,31 @@ appJs = appJs.replace(
 // Write updated app.js
 fs.writeFileSync('app.js', appJs);
 
+// 5. Update Growth chart data
+let growthData = { dates: [], totals: [] };
+if (fs.existsSync('daily-stats.json')) {
+    const dailyStats = JSON.parse(fs.readFileSync('daily-stats.json', 'utf8'));
+    const sortedDates = Object.keys(dailyStats).sort();
+    
+    // Format dates and get totals
+    growthData.dates = sortedDates.map(date => {
+        const d = new Date(date);
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    });
+    growthData.totals = sortedDates.map(date => dailyStats[date].total);
+    
+    // Update GROWTH_DATA in app.js
+    appJs = fs.readFileSync('app.js', 'utf8');
+    appJs = appJs.replace(
+        /const GROWTH_DATA = \{[\s\S]*?dates: \[[^\]]*\],[\s\S]*?totals: \[[^\]]*\][\s\S]*?\};/,
+        `const GROWTH_DATA = {
+    dates: [${growthData.dates.map(d => `"${d}"`).join(', ')}],
+    totals: [${growthData.totals.join(', ')}]
+};`
+    );
+    fs.writeFileSync('app.js', appJs);
+}
+
 // Update index.html with new total
 let indexHtml = fs.readFileSync('index.html', 'utf8');
 

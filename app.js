@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [907, 44],
+            data: [909, 43],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -40,7 +40,7 @@ new Chart(toolsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 248],
+            data: [303, 100, 100, 100, 100, 249],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -76,7 +76,7 @@ new Chart(barsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 100, 50, 44, 22, 21, 11],
+            data: [303, 100, 100, 100, 100, 100, 50, 43, 23, 21, 12],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]

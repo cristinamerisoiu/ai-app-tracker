@@ -146,17 +146,17 @@ indexHtml = indexHtml.replace(
     `$1${formattedDate}`
 );
 
-// Update all stat cards
+// Update all stat cards - FIXED
 indexHtml = indexHtml.replace(
-    /(<div class="stat-value">)\d+(<\/div>[\s\S]*?Total Apps Detected)/,
+    /(<div class="stat-label">Total Apps Detected<\/div>\s*<div class="stat-value">)\d+(<\/div>)/,
     `$1${totalCount}$2`
 );
 indexHtml = indexHtml.replace(
-    /(<div class="stat-value">)\d+(<\/div>[\s\S]*?Explicit Mentions)/,
+    /(<div class="stat-label">Explicit Mentions<\/div>\s*<div class="stat-value">)\d+(<\/div>)/,
     `$1${explicitCount}$2`
 );
 indexHtml = indexHtml.replace(
-    /(<div class="stat-value">)\d+(<\/div>[\s\S]*?Temporal Detection)/,
+    /(<div class="stat-label">Temporal Detection<\/div>\s*<div class="stat-value">)\d+(<\/div>)/,
     `$1${temporalCount}$2`
 );
 

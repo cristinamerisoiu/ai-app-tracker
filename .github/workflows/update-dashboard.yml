@@ -28,6 +28,7 @@ jobs:
         run: |
           node collect-with-temporal.js
           node categorize-apps.js
+           node track-daily-stats.js
       
       - name: Update dashboard with new data
         run: node update-dashboard.js

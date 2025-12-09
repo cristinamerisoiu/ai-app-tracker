@@ -6,7 +6,7 @@
       "description": "Create a data analysis AI agent with Claude Code. Make data analysis as simple as having a chat!​​ 别忘了！claude code也是agent框架，类似langgraph,crewAI，autogen等等agent框架。我改造claude code搞一个数据分析智能体AI。 让数据分析变得像聊天一样简单！",
       "created_at": "2025-09-29T16:11:24Z",
       "language": "Python",
-      "stars": 247,
+      "stars": 250,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -18,7 +18,7 @@
       "description": "Use Claude Code or Cursor CLI on mobile and web with Claude Code UI. Claude Code UI free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
       "created_at": "2025-06-25T12:51:12Z",
       "language": "JavaScript",
-      "stars": 4964,
+      "stars": 4966,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -66,7 +66,7 @@
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "created_at": "2025-08-31T20:50:03Z",
       "language": "JavaScript",
-      "stars": 948,
+      "stars": 969,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -90,7 +90,7 @@
       "description": "🐔 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included",
       "created_at": "2025-11-25T12:38:23Z",
       "language": null,
-      "stars": 81,
+      "stars": 83,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -114,7 +114,7 @@
       "description": "A Rust based utilty toolbox for developers. Inspired from https://it-tools.tech",
       "created_at": "2025-06-28T20:01:57Z",
       "language": "Rust",
-      "stars": 1093,
+      "stars": 1094,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -366,7 +366,7 @@
       "description": "The Self-Improving MCP Server - Agents write code to orchestrate multiple MCP servers with intelligent TypeScript execution and auto-augmentation",
       "created_at": "2025-10-01T18:19:50Z",
       "language": "TypeScript",
-      "stars": 20,
+      "stars": 21,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -414,7 +414,7 @@
       "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
       "created_at": "2025-11-03T06:13:06Z",
       "language": "Python",
-      "stars": 301,
+      "stars": 303,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
@@ -481,6 +481,18 @@
       "category": "AI/ML Tools"
     },
     {
+      "full_name": "o2alexanderfedin/linkedin-job-automation",
+      "url": "https://github.com/o2alexanderfedin/linkedin-job-automation",
+      "description": "Intelligent LinkedIn job application automation with Claude Code slash commands and agents",
+      "created_at": "2025-09-07T03:52:04Z",
+      "language": "Python",
+      "stars": 4,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Automation/Bot"
+    },
+    {
       "full_name": "manutej/luxor-claude-marketplace",
       "url": "https://github.com/manutej/luxor-claude-marketplace",
       "description": "Professional Claude Code marketplace with 140 development tools: 67 skills, 28 commands, 30 agents, 15 workflows",
@@ -503,18 +515,6 @@
       "confidence": "high",
       "ai_tool": "Claude",
       "category": "Blog/Content"
-    },
-    {
-      "full_name": "o2alexanderfedin/linkedin-job-automation",
-      "url": "https://github.com/o2alexanderfedin/linkedin-job-automation",
-      "description": "Intelligent LinkedIn job application automation with Claude Code slash commands and agents",
-      "created_at": "2025-09-07T03:52:04Z",
-      "language": "Python",
-      "stars": 4,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Automation/Bot"
     },
     {
       "full_name": "prompt-scheduler/cli",
@@ -673,6 +673,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "evanjholt/AESO_Data_Website_Claude",
+      "url": "https://github.com/evanjholt/AESO_Data_Website_Claude",
+      "description": "Date website built with claude",
+      "created_at": "2025-07-31T19:59:08Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "BaumTier/znax-app",
       "url": "https://github.com/BaumTier/znax-app",
       "description": null,
@@ -697,6 +709,18 @@
       "category": "Education"
     },
     {
+      "full_name": "StudioTenwu/PokeCraft",
+      "url": "https://github.com/StudioTenwu/PokeCraft",
+      "description": "AI-powered Pokémon-style agent creation and world exploration game",
+      "created_at": "2025-11-10T23:30:56Z",
+      "language": "Python",
+      "stars": 3,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Entertainment"
+    },
+    {
       "full_name": "dennisonbertram/claudeops",
       "url": "https://github.com/dennisonbertram/claudeops",
       "description": "Autonomous Server Management with Claude Code - Let AI be your DevOps engineer",
@@ -707,30 +731,6 @@
       "confidence": "high",
       "ai_tool": "Claude",
       "category": "Infrastructure"
-    },
-    {
-      "full_name": "its7rishi/multiplication",
-      "url": "https://github.com/its7rishi/multiplication",
-      "description": null,
-      "created_at": "2025-10-11T13:19:37Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Automation/Bot"
-    },
-    {
-      "full_name": "evanjholt/AESO_Data_Website_Claude",
-      "url": "https://github.com/evanjholt/AESO_Data_Website_Claude",
-      "description": "Date website built with claude",
-      "created_at": "2025-07-31T19:59:08Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Design/Creative"
     },
     {
       "full_name": "s-jaiprakash/dev-setup",
@@ -745,16 +745,16 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "CK-HYF-DK/tennis-score",
-      "url": "https://github.com/CK-HYF-DK/tennis-score",
-      "description": "Tennis Score tracker built with Claude",
-      "created_at": "2024-11-19T13:30:36Z",
-      "language": "TypeScript",
+      "full_name": "its7rishi/multiplication",
+      "url": "https://github.com/its7rishi/multiplication",
+      "description": null,
+      "created_at": "2025-10-11T13:19:37Z",
+      "language": "JavaScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
-      "category": "Design/Creative"
+      "category": "Automation/Bot"
     },
     {
       "full_name": "alango/board-game-timer",
@@ -769,16 +769,16 @@
       "category": "Entertainment"
     },
     {
-      "full_name": "duyet/duyetbot-agent",
-      "url": "https://github.com/duyet/duyetbot-agent",
-      "description": null,
-      "created_at": "2025-11-18T06:35:44Z",
+      "full_name": "CK-HYF-DK/tennis-score",
+      "url": "https://github.com/CK-HYF-DK/tennis-score",
+      "description": "Tennis Score tracker built with Claude",
+      "created_at": "2024-11-19T13:30:36Z",
       "language": "TypeScript",
-      "stars": 3,
+      "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
-      "category": "Automation/Bot"
+      "category": "Design/Creative"
     },
     {
       "full_name": "nseon1/gi-chess-bot",
@@ -791,6 +791,18 @@
       "confidence": "high",
       "ai_tool": "Claude",
       "category": "Design/Creative"
+    },
+    {
+      "full_name": "duyet/duyetbot-agent",
+      "url": "https://github.com/duyet/duyetbot-agent",
+      "description": null,
+      "created_at": "2025-11-18T06:35:44Z",
+      "language": "TypeScript",
+      "stars": 3,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Automation/Bot"
     },
     {
       "full_name": "alysonla/sea-creature-speed",
@@ -829,18 +841,6 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "StudioTenwu/PokeCraft",
-      "url": "https://github.com/StudioTenwu/PokeCraft",
-      "description": "AI-powered Pokémon-style agent creation and world exploration game",
-      "created_at": "2025-11-10T23:30:56Z",
-      "language": "Python",
-      "stars": 3,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Entertainment"
-    },
-    {
       "full_name": "shanetraister/animated-succotash",
       "url": "https://github.com/shanetraister/animated-succotash",
       "description": "An experimental card sort game for my wife's high school bio class, built with Claude",
@@ -875,6 +875,18 @@
       "confidence": "high",
       "ai_tool": "Claude",
       "category": "Data/Analytics"
+    },
+    {
+      "full_name": "zakwarsame/pomodoro-timer",
+      "url": "https://github.com/zakwarsame/pomodoro-timer",
+      "description": null,
+      "created_at": "2025-03-03T13:11:47Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Automation/Bot"
     },
     {
       "full_name": "ASTM79/Claude-Test-Project-1.1",
@@ -997,18 +1009,6 @@
       "category": "Automation/Bot"
     },
     {
-      "full_name": "zakwarsame/pomodoro-timer",
-      "url": "https://github.com/zakwarsame/pomodoro-timer",
-      "description": null,
-      "created_at": "2025-03-03T13:11:47Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Automation/Bot"
-    },
-    {
       "full_name": "jmitchell35/gaining_awareness",
       "url": "https://github.com/jmitchell35/gaining_awareness",
       "description": "Repo created to store documentation built with AI to help me kickstart my learning of programming",
@@ -1019,6 +1019,18 @@
       "confidence": "high",
       "ai_tool": "Claude",
       "category": "Design/Creative"
+    },
+    {
+      "full_name": "nwalters512/jsx-to-string-experiments",
+      "url": "https://github.com/nwalters512/jsx-to-string-experiments",
+      "description": null,
+      "created_at": "2025-04-24T22:04:37Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Claude",
+      "category": "Automation/Bot"
     },
     {
       "full_name": "jeffdeville/zForge-marketplace",
@@ -1061,18 +1073,6 @@
       "url": "https://github.com/Wowfunhappy/background-remover-automator-action",
       "description": "An Automator Action for OS X 10.9 which removes the background of an image passed into it",
       "created_at": "2025-07-05T21:23:07Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Claude",
-      "category": "Automation/Bot"
-    },
-    {
-      "full_name": "nwalters512/jsx-to-string-experiments",
-      "url": "https://github.com/nwalters512/jsx-to-string-experiments",
-      "description": null,
-      "created_at": "2025-04-24T22:04:37Z",
       "language": "JavaScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -1189,16 +1189,16 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Zetaphor/carthing-template",
-      "url": "https://github.com/Zetaphor/carthing-template",
-      "description": "A Spotify CarThing template containing a Typescript/SCSS client app, and a Typescript Websocket server/SOCKS5 proxy, built with Deno",
-      "created_at": "2024-11-08T16:53:38Z",
-      "language": "TypeScript",
-      "stars": 2,
+      "full_name": "ash-singh/claude-weather-mcp-server",
+      "url": "https://github.com/ash-singh/claude-weather-mcp-server",
+      "description": "A sample Claude MCP server that returns weather information",
+      "created_at": "2025-08-30T04:48:08Z",
+      "language": "Python",
+      "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Claude",
-      "category": "Design/Creative"
+      "category": "Template/Boilerplate"
     },
     {
       "full_name": "derekantrican/ytsubs",
@@ -2089,6 +2089,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "HM00-0/COREX",
+      "url": "https://github.com/HM00-0/COREX",
+      "description": null,
+      "created_at": "2025-05-27T11:48:04Z",
+      "language": "Swift",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "ChatGPT",
+      "category": "Other"
+    },
+    {
       "full_name": "GreatScott/once-upon-a-jester-macos-patch",
       "url": "https://github.com/GreatScott/once-upon-a-jester-macos-patch",
       "description": null,
@@ -2123,18 +2135,6 @@
       "confidence": "high",
       "ai_tool": "ChatGPT",
       "category": "AI/ML Tools"
-    },
-    {
-      "full_name": "HM00-0/COREX",
-      "url": "https://github.com/HM00-0/COREX",
-      "description": null,
-      "created_at": "2025-05-27T11:48:04Z",
-      "language": "Swift",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "ChatGPT",
-      "category": "Other"
     },
     {
       "full_name": "Z3ro-Kun/anime-recommender",
@@ -2569,6 +2569,18 @@
       "category": "Social Media"
     },
     {
+      "full_name": "Ef1Pe/spotify_replica",
+      "url": "https://github.com/Ef1Pe/spotify_replica",
+      "description": "Replica of spotify created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:03:00Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
       "full_name": "DasZSD/Unity_3d_fps_cursor",
       "url": "https://github.com/DasZSD/Unity_3d_fps_cursor",
       "description": "Unity 3d game created with cursor",
@@ -2605,30 +2617,6 @@
       "category": "Infrastructure"
     },
     {
-      "full_name": "Ef1Pe/gitlab_replica",
-      "url": "https://github.com/Ef1Pe/gitlab_replica",
-      "description": "Replica of gitlab created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:01:49Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
-      "full_name": "Ef1Pe/tiktok_replica",
-      "url": "https://github.com/Ef1Pe/tiktok_replica",
-      "description": "Replica of tiktok created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:01:36Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
       "full_name": "Ef1Pe/discord_replica",
       "url": "https://github.com/Ef1Pe/discord_replica",
       "description": "Replica of discord created with Cursor Cloud Agent",
@@ -2645,6 +2633,30 @@
       "url": "https://github.com/Ef1Pe/delta_replica",
       "description": "Replica of delta created with Cursor Cloud Agent",
       "created_at": "2025-11-30T23:02:51Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
+      "full_name": "Ef1Pe/gitlab_replica",
+      "url": "https://github.com/Ef1Pe/gitlab_replica",
+      "description": "Replica of gitlab created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:01:49Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
+      "full_name": "Ef1Pe/tiktok_replica",
+      "url": "https://github.com/Ef1Pe/tiktok_replica",
+      "description": "Replica of tiktok created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:01:36Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -2701,30 +2713,6 @@
       "category": "Food/Restaurant"
     },
     {
-      "full_name": "Ef1Pe/ebay_replica",
-      "url": "https://github.com/Ef1Pe/ebay_replica",
-      "description": "Replica of ebay created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:02:32Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
-      "full_name": "graphicsindore-dev/shreeram-website",
-      "url": "https://github.com/graphicsindore-dev/shreeram-website",
-      "description": "Official new website for Shreeram Advertising, built with Next.js and modern design.",
-      "created_at": "2025-09-04T07:42:44Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Ef1Pe/skyscanner_replica",
       "url": "https://github.com/Ef1Pe/skyscanner_replica",
       "description": "Replica of skyscanner created with Cursor Cloud Agent",
@@ -2747,6 +2735,30 @@
       "confidence": "high",
       "ai_tool": "Cursor",
       "category": "Travel/Tourism"
+    },
+    {
+      "full_name": "Ef1Pe/ebay_replica",
+      "url": "https://github.com/Ef1Pe/ebay_replica",
+      "description": "Replica of ebay created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:02:32Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
+      "full_name": "graphicsindore-dev/shreeram-website",
+      "url": "https://github.com/graphicsindore-dev/shreeram-website",
+      "description": "Official new website for Shreeram Advertising, built with Next.js and modern design.",
+      "created_at": "2025-09-04T07:42:44Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Design/Creative"
     },
     {
       "full_name": "Ef1Pe/stripe_replica",
@@ -2809,42 +2821,6 @@
       "category": "Infrastructure"
     },
     {
-      "full_name": "Ef1Pe/spotify_replica",
-      "url": "https://github.com/Ef1Pe/spotify_replica",
-      "description": "Replica of spotify created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:03:00Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
-      "full_name": "Ef1Pe/instagram_replica",
-      "url": "https://github.com/Ef1Pe/instagram_replica",
-      "description": "Replica of instagram created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:01:34Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
-      "full_name": "Ef1Pe/firecrawl.dev_replica",
-      "url": "https://github.com/Ef1Pe/firecrawl.dev_replica",
-      "description": "Replica of firecrawl.dev created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:02:22Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
       "full_name": "28floresya/myfirstrepo",
       "url": "https://github.com/28floresya/myfirstrepo",
       "description": "this repo is my first game created with Cursor.",
@@ -2881,10 +2857,10 @@
       "category": "Education"
     },
     {
-      "full_name": "FirdowsAnkerCloud/test-cursor-project",
-      "url": "https://github.com/FirdowsAnkerCloud/test-cursor-project",
-      "description": "A test project created with Cursor",
-      "created_at": "2025-08-22T05:45:42Z",
+      "full_name": "Ef1Pe/instagram_replica",
+      "url": "https://github.com/Ef1Pe/instagram_replica",
+      "description": "Replica of instagram created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:01:34Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -2897,6 +2873,30 @@
       "url": "https://github.com/Ef1Pe/atlassian-jira_replica",
       "description": "Replica of atlassian-jira created with Cursor Cloud Agent",
       "created_at": "2025-11-30T23:01:57Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
+      "full_name": "Ef1Pe/firecrawl.dev_replica",
+      "url": "https://github.com/Ef1Pe/firecrawl.dev_replica",
+      "description": "Replica of firecrawl.dev created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:02:22Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
+    },
+    {
+      "full_name": "FirdowsAnkerCloud/test-cursor-project",
+      "url": "https://github.com/FirdowsAnkerCloud/test-cursor-project",
+      "description": "A test project created with Cursor",
+      "created_at": "2025-08-22T05:45:42Z",
       "language": null,
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -2929,18 +2929,6 @@
       "category": "Infrastructure"
     },
     {
-      "full_name": "Ef1Pe/gemini.google_replica",
-      "url": "https://github.com/Ef1Pe/gemini.google_replica",
-      "description": "Replica of gemini.google created with Cursor Cloud Agent",
-      "created_at": "2025-11-30T23:03:14Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Infrastructure"
-    },
-    {
       "full_name": "Jayy-67/Myfristrepo",
       "url": "https://github.com/Jayy-67/Myfristrepo",
       "description": "This repo is my first game created with Cursor",
@@ -2951,6 +2939,18 @@
       "confidence": "high",
       "ai_tool": "Cursor",
       "category": "Entertainment"
+    },
+    {
+      "full_name": "Ef1Pe/gemini.google_replica",
+      "url": "https://github.com/Ef1Pe/gemini.google_replica",
+      "description": "Replica of gemini.google created with Cursor Cloud Agent",
+      "created_at": "2025-11-30T23:03:14Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Infrastructure"
     },
     {
       "full_name": "crecker05ru/2d-planner",
@@ -3337,6 +3337,18 @@
       "category": "AI/ML Tools"
     },
     {
+      "full_name": "blumendorf/profile-page",
+      "url": "https://github.com/blumendorf/profile-page",
+      "description": "My personal profile page",
+      "created_at": "2025-01-04T21:06:43Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "Automation/Bot"
+    },
+    {
       "full_name": "ms0ur/spotifymerger-python",
       "url": "https://github.com/ms0ur/spotifymerger-python",
       "description": null,
@@ -3359,18 +3371,6 @@
       "confidence": "high",
       "ai_tool": "Cursor",
       "category": "Design/Creative"
-    },
-    {
-      "full_name": "blumendorf/profile-page",
-      "url": "https://github.com/blumendorf/profile-page",
-      "description": "My personal profile page",
-      "created_at": "2025-01-04T21:06:43Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "Automation/Bot"
     },
     {
       "full_name": "rajieluo/card-probability-calculator",
@@ -3541,6 +3541,18 @@
       "category": "Education"
     },
     {
+      "full_name": "CesarAugusto00/AskAboutCesar",
+      "url": "https://github.com/CesarAugusto00/AskAboutCesar",
+      "description": "This project is a Flask-based web app that uses an LLM (LLaMA 3.1 8B via Replicate) to answer questions specifically about me, based on a set of contextual information I provide. To help me find a job.",
+      "created_at": "2025-10-19T05:51:48Z",
+      "language": "Python",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Cursor",
+      "category": "AI/ML Tools"
+    },
+    {
       "full_name": "BlastBlastBlast/Coupler-Mock",
       "url": "https://github.com/BlastBlastBlast/Coupler-Mock",
       "description": null,
@@ -3575,18 +3587,6 @@
       "confidence": "high",
       "ai_tool": "Cursor",
       "category": "Education"
-    },
-    {
-      "full_name": "CesarAugusto00/AskAboutCesar",
-      "url": "https://github.com/CesarAugusto00/AskAboutCesar",
-      "description": "This project is a Flask-based web app that uses an LLM (LLaMA 3.1 8B via Replicate) to answer questions specifically about me, based on a set of contextual information I provide. To help me find a job.",
-      "created_at": "2025-10-19T05:51:48Z",
-      "language": "Python",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Cursor",
-      "category": "AI/ML Tools"
     },
     {
       "full_name": "keewon/PhoneNumberHintTest",
@@ -4177,18 +4177,6 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "AlbertSanIza/lets-focus",
-      "url": "https://github.com/AlbertSanIza/lets-focus",
-      "description": null,
-      "created_at": "2025-06-14T01:24:33Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Bolt.new",
-      "category": "Automation/Bot"
-    },
-    {
       "full_name": "vibefit040925-bit/vibefit-fitness-tracker",
       "url": "https://github.com/vibefit040925-bit/vibefit-fitness-tracker",
       "description": "AI-powered fitness goal tracking app built with Bolt.new and Supabase",
@@ -4199,6 +4187,18 @@
       "confidence": "high",
       "ai_tool": "Bolt.new",
       "category": "Healthcare"
+    },
+    {
+      "full_name": "AlbertSanIza/lets-focus",
+      "url": "https://github.com/AlbertSanIza/lets-focus",
+      "description": null,
+      "created_at": "2025-06-14T01:24:33Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Bolt.new",
+      "category": "Automation/Bot"
     },
     {
       "full_name": "jsanders108/CrewAI-Crypto-Survey-NextJS",
@@ -4345,11 +4345,11 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "n00bsaiboth/slack-bot",
-      "url": "https://github.com/n00bsaiboth/slack-bot",
+      "full_name": "cezvalen94/website-checker",
+      "url": "https://github.com/cezvalen94/website-checker",
       "description": null,
-      "created_at": "2024-12-10T11:47:04Z",
-      "language": "JavaScript",
+      "created_at": "2025-04-20T18:35:12Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -4357,11 +4357,11 @@
       "category": "Automation/Bot"
     },
     {
-      "full_name": "cezvalen94/website-checker",
-      "url": "https://github.com/cezvalen94/website-checker",
+      "full_name": "n00bsaiboth/slack-bot",
+      "url": "https://github.com/n00bsaiboth/slack-bot",
       "description": null,
-      "created_at": "2025-04-20T18:35:12Z",
-      "language": "TypeScript",
+      "created_at": "2024-12-10T11:47:04Z",
+      "language": "JavaScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -4501,11 +4501,11 @@
       "category": "Automation/Bot"
     },
     {
-      "full_name": "ayush-e2m/bot-test",
-      "url": "https://github.com/ayush-e2m/bot-test",
+      "full_name": "dhruvsaija-e2m/bot-test",
+      "url": "https://github.com/dhruvsaija-e2m/bot-test",
       "description": null,
-      "created_at": "2025-07-15T12:41:50Z",
-      "language": "Python",
+      "created_at": "2025-07-11T05:55:03Z",
+      "language": "JavaScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -4513,11 +4513,11 @@
       "category": "Automation/Bot"
     },
     {
-      "full_name": "dhruvsaija-e2m/bot-test",
-      "url": "https://github.com/dhruvsaija-e2m/bot-test",
+      "full_name": "ayush-e2m/bot-test",
+      "url": "https://github.com/ayush-e2m/bot-test",
       "description": null,
-      "created_at": "2025-07-11T05:55:03Z",
-      "language": "JavaScript",
+      "created_at": "2025-07-15T12:41:50Z",
+      "language": "Python",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -5869,6 +5869,18 @@
       "category": "Automation/Bot"
     },
     {
+      "full_name": "retospect/scixtract",
+      "url": "https://github.com/retospect/scixtract",
+      "description": "Extracts scientific paper text from documents and provides decently clean markdown. ",
+      "created_at": "2025-11-01T16:36:20Z",
+      "language": "Python",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Windsurf",
+      "category": "Other"
+    },
+    {
       "full_name": "martinhrosso1/kuduso",
       "url": "https://github.com/martinhrosso1/kuduso",
       "description": null,
@@ -5903,18 +5915,6 @@
       "confidence": "high",
       "ai_tool": "Windsurf",
       "category": "Automation/Bot"
-    },
-    {
-      "full_name": "retospect/scixtract",
-      "url": "https://github.com/retospect/scixtract",
-      "description": "Extracts scientific paper text from documents and provides decently clean markdown. ",
-      "created_at": "2025-11-01T16:36:20Z",
-      "language": "Python",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Windsurf",
-      "category": "Other"
     },
     {
       "full_name": "Foundup/foundups-bot",
@@ -6217,6 +6217,42 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Danrozen87/todo-app-597649",
+      "url": "https://github.com/Danrozen87/todo-app-597649",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-26T19:36:37Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/to-do-350698",
+      "url": "https://github.com/Danrozen87/to-do-350698",
+      "description": "to-do - Built with Lovable",
+      "created_at": "2025-07-28T18:29:11Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/simple-todo-669853",
+      "url": "https://github.com/Danrozen87/simple-todo-669853",
+      "description": "simple-todo - Built with Lovable",
+      "created_at": "2025-07-28T12:11:10Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "Danrozen87/simple-todo-160287",
       "url": "https://github.com/Danrozen87/simple-todo-160287",
       "description": "simple-todo - Built with Lovable",
@@ -6253,6 +6289,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Danrozen87/new-project",
+      "url": "https://github.com/Danrozen87/new-project",
+      "description": "new-project - Built with Lovable",
+      "created_at": "2025-07-26T18:11:29Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "Danrozen87/gantt-app-614031",
       "url": "https://github.com/Danrozen87/gantt-app-614031",
       "description": "gantt-app - Built with Lovable",
@@ -6277,16 +6325,16 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/new-project",
-      "url": "https://github.com/Danrozen87/new-project",
-      "description": "new-project - Built with Lovable",
-      "created_at": "2025-07-26T18:11:29Z",
-      "language": null,
-      "stars": 0,
+      "full_name": "Kamal007OLica/fosshack25",
+      "url": "https://github.com/Kamal007OLica/fosshack25",
+      "description": "A repo of YC Hacker representing, FOSS Hack 2025 is the fifth edition of FOSS Hack.",
+      "created_at": "2025-02-22T14:26:23Z",
+      "language": "TypeScript",
+      "stars": 2,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Lovable",
-      "category": "Design/Creative"
+      "category": "Automation/Bot"
     },
     {
       "full_name": "Danrozen87/weather-app-197518",
@@ -6313,16 +6361,28 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Kamal007OLica/fosshack25",
-      "url": "https://github.com/Kamal007OLica/fosshack25",
-      "description": "A repo of YC Hacker representing, FOSS Hack 2025 is the fifth edition of FOSS Hack.",
-      "created_at": "2025-02-22T14:26:23Z",
+      "full_name": "Danrozen87/todo-app-535648",
+      "url": "https://github.com/Danrozen87/todo-app-535648",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T21:18:56Z",
       "language": "TypeScript",
-      "stars": 2,
+      "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Lovable",
-      "category": "Automation/Bot"
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/to-do-m8i0gm",
+      "url": "https://github.com/Danrozen87/to-do-m8i0gm",
+      "description": "to-do-m8i0gm - Built with Lovable",
+      "created_at": "2025-07-28T21:44:07Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
     },
     {
       "full_name": "Danrozen87/simple-todo-681032",
@@ -6349,35 +6409,35 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/to-do-m8i0gm",
-      "url": "https://github.com/Danrozen87/to-do-m8i0gm",
-      "description": "to-do-m8i0gm - Built with Lovable",
-      "created_at": "2025-07-28T21:44:07Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-535648",
-      "url": "https://github.com/Danrozen87/todo-app-535648",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T21:18:56Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Danrozen87/new-app",
       "url": "https://github.com/Danrozen87/new-app",
       "description": "new-app - Built with Lovable",
       "created_at": "2025-07-26T18:16:38Z",
       "language": "CSS",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/modern-looking",
+      "url": "https://github.com/Danrozen87/modern-looking",
+      "description": "modern-looking - Built with Lovable",
+      "created_at": "2025-07-27T16:28:00Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/new-to-do",
+      "url": "https://github.com/Danrozen87/new-to-do",
+      "description": "new-to-do - Built with Lovable",
+      "created_at": "2025-07-27T11:49:35Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -6397,10 +6457,10 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/modern-looking",
-      "url": "https://github.com/Danrozen87/modern-looking",
-      "description": "modern-looking - Built with Lovable",
-      "created_at": "2025-07-27T16:28:00Z",
+      "full_name": "Danrozen87/todo-app-495114",
+      "url": "https://github.com/Danrozen87/todo-app-495114",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T21:18:15Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6433,58 +6493,10 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/new-to-do",
-      "url": "https://github.com/Danrozen87/new-to-do",
-      "description": "new-to-do - Built with Lovable",
-      "created_at": "2025-07-27T11:49:35Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Danrozen87/to-do",
       "url": "https://github.com/Danrozen87/to-do",
       "description": "to-do - Built with Lovable",
       "created_at": "2025-07-27T18:04:15Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-495114",
-      "url": "https://github.com/Danrozen87/todo-app-495114",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T21:18:15Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-to-do-753448",
-      "url": "https://github.com/Danrozen87/simple-to-do-753448",
-      "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T16:12:33Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/beautiful-to-do-664903",
-      "url": "https://github.com/Danrozen87/beautiful-to-do-664903",
-      "description": "beautiful-to-do - Built with Lovable",
-      "created_at": "2025-07-27T17:17:45Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6529,6 +6541,42 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Danrozen87/simple-to-do-753448",
+      "url": "https://github.com/Danrozen87/simple-to-do-753448",
+      "description": "simple-to-do - Built with Lovable",
+      "created_at": "2025-07-27T16:12:33Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/beautiful-to-do-664903",
+      "url": "https://github.com/Danrozen87/beautiful-to-do-664903",
+      "description": "beautiful-to-do - Built with Lovable",
+      "created_at": "2025-07-27T17:17:45Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-app-639785",
+      "url": "https://github.com/Danrozen87/todo-app-639785",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T21:20:40Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "Danrozen87/newspaper-landing",
       "url": "https://github.com/Danrozen87/newspaper-landing",
       "description": "newspaper-landing - Built with Lovable",
@@ -6553,16 +6601,28 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/todo-app-639785",
-      "url": "https://github.com/Danrozen87/todo-app-639785",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T21:20:40Z",
+      "full_name": "Danrozen87/simple-now",
+      "url": "https://github.com/Danrozen87/simple-now",
+      "description": "simple-now - Built with Lovable",
+      "created_at": "2025-07-27T15:34:20Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Lovable",
       "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/new-discord",
+      "url": "https://github.com/Danrozen87/new-discord",
+      "description": "new-discord - Built with Lovable",
+      "created_at": "2025-07-26T19:27:24Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Social Media"
     },
     {
       "full_name": "Danrozen87/simple-sail",
@@ -6577,40 +6637,16 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/to-do-994844",
-      "url": "https://github.com/Danrozen87/to-do-994844",
-      "description": "to-do - Built with Lovable",
-      "created_at": "2025-07-28T21:26:35Z",
+      "full_name": "andreibesleaga/medicine-finder",
+      "url": "https://github.com/andreibesleaga/medicine-finder",
+      "description": "Medicine Brand Finder - Search APIs for active drug ingredients and discover medicine brand names worldwide (with RxNorm data where available), enhanced by AI.",
+      "created_at": "2025-06-20T13:13:26Z",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 2,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-049032",
-      "url": "https://github.com/Danrozen87/todo-app-049032",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-26T18:04:09Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/weather-app-856382",
-      "url": "https://github.com/Danrozen87/weather-app-856382",
-      "description": "weather-app - Built with Lovable",
-      "created_at": "2025-07-26T17:44:16Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "Danrozen87/todo-app-822633",
@@ -6647,42 +6683,6 @@
       "confidence": "high",
       "ai_tool": "Lovable",
       "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-now",
-      "url": "https://github.com/Danrozen87/simple-now",
-      "description": "simple-now - Built with Lovable",
-      "created_at": "2025-07-27T15:34:20Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/new-discord",
-      "url": "https://github.com/Danrozen87/new-discord",
-      "description": "new-discord - Built with Lovable",
-      "created_at": "2025-07-26T19:27:24Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Social Media"
-    },
-    {
-      "full_name": "andreibesleaga/medicine-finder",
-      "url": "https://github.com/andreibesleaga/medicine-finder",
-      "description": "Medicine Brand Finder - Search APIs for active drug ingredients and discover medicine brand names worldwide (with RxNorm data where available), enhanced by AI.",
-      "created_at": "2025-06-20T13:13:26Z",
-      "language": "TypeScript",
-      "stars": 2,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "AI/ML Tools"
     },
     {
       "full_name": "Danrozen87/todo-app-430770",
@@ -6733,6 +6733,66 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Danrozen87/gantt-app-857236",
+      "url": "https://github.com/Danrozen87/gantt-app-857236",
+      "description": "gantt-app - Built with Lovable",
+      "created_at": "2025-07-27T13:10:57Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/to-do-994844",
+      "url": "https://github.com/Danrozen87/to-do-994844",
+      "description": "to-do - Built with Lovable",
+      "created_at": "2025-07-28T21:26:35Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-app-049032",
+      "url": "https://github.com/Danrozen87/todo-app-049032",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-26T18:04:09Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/weather-app-856382",
+      "url": "https://github.com/Danrozen87/weather-app-856382",
+      "description": "weather-app - Built with Lovable",
+      "created_at": "2025-07-26T17:44:16Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "KashV2/kash-portfolio-showcase",
+      "url": "https://github.com/KashV2/kash-portfolio-showcase",
+      "description": "website portfolio I built with lovable.",
+      "created_at": "2025-11-10T00:22:44Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "Danrozen87/todo-app-581971",
       "url": "https://github.com/Danrozen87/todo-app-581971",
       "description": "todo-app - Built with Lovable",
@@ -6769,142 +6829,10 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/gantt-app-857236",
-      "url": "https://github.com/Danrozen87/gantt-app-857236",
-      "description": "gantt-app - Built with Lovable",
-      "created_at": "2025-07-27T13:10:57Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Danrozen87/simple-todo",
       "url": "https://github.com/Danrozen87/simple-todo",
       "description": "simple-todo - Built with Lovable",
       "created_at": "2025-07-27T14:34:58Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-597649",
-      "url": "https://github.com/Danrozen87/todo-app-597649",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-26T19:36:37Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/to-do-350698",
-      "url": "https://github.com/Danrozen87/to-do-350698",
-      "description": "to-do - Built with Lovable",
-      "created_at": "2025-07-28T18:29:11Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-todo-669853",
-      "url": "https://github.com/Danrozen87/simple-todo-669853",
-      "description": "simple-todo - Built with Lovable",
-      "created_at": "2025-07-28T12:11:10Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-all",
-      "url": "https://github.com/Danrozen87/todo-all",
-      "description": "todo-all - Built with Lovable",
-      "created_at": "2025-07-28T21:33:51Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/weather-app-833679",
-      "url": "https://github.com/Danrozen87/weather-app-833679",
-      "description": "weather-app - Built with Lovable",
-      "created_at": "2025-07-26T18:50:34Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/to-do-ley61t",
-      "url": "https://github.com/Danrozen87/to-do-ley61t",
-      "description": "to-do-ley61t - Built with Lovable",
-      "created_at": "2025-07-28T21:39:47Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-805014",
-      "url": "https://github.com/Danrozen87/todo-app-805014",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-28T21:40:05Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-to-do-372461",
-      "url": "https://github.com/Danrozen87/simple-to-do-372461",
-      "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T11:56:12Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-now-062288",
-      "url": "https://github.com/Danrozen87/simple-now-062288",
-      "description": "simple-now - Built with Lovable",
-      "created_at": "2025-07-27T16:01:02Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/weather-app-620270",
-      "url": "https://github.com/Danrozen87/weather-app-620270",
-      "description": "weather-app - Built with Lovable",
-      "created_at": "2025-07-27T13:07:00Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -6985,11 +6913,83 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Fyoussef55/Jobex",
-      "url": "https://github.com/Fyoussef55/Jobex",
-      "description": "AI job matching app built with Lovable AI",
-      "created_at": "2025-07-13T20:13:39Z",
-      "language": null,
+      "full_name": "Danrozen87/todo-app-812889",
+      "url": "https://github.com/Danrozen87/todo-app-812889",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-27T21:46:53Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-all",
+      "url": "https://github.com/Danrozen87/todo-all",
+      "description": "todo-all - Built with Lovable",
+      "created_at": "2025-07-28T21:33:51Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/weather-app-833679",
+      "url": "https://github.com/Danrozen87/weather-app-833679",
+      "description": "weather-app - Built with Lovable",
+      "created_at": "2025-07-26T18:50:34Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-app-805014",
+      "url": "https://github.com/Danrozen87/todo-app-805014",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-28T21:40:05Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/simple-now-062288",
+      "url": "https://github.com/Danrozen87/simple-now-062288",
+      "description": "simple-now - Built with Lovable",
+      "created_at": "2025-07-27T16:01:02Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/simple-to-do-372461",
+      "url": "https://github.com/Danrozen87/simple-to-do-372461",
+      "description": "simple-to-do - Built with Lovable",
+      "created_at": "2025-07-27T11:56:12Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/to-do-ley61t",
+      "url": "https://github.com/Danrozen87/to-do-ley61t",
+      "description": "to-do-ley61t - Built with Lovable",
+      "created_at": "2025-07-28T21:39:47Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -7014,6 +7014,90 @@
       "description": "gantt-app - Built with Lovable",
       "created_at": "2025-07-26T18:21:37Z",
       "language": "CSS",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/weather-app-620270",
+      "url": "https://github.com/Danrozen87/weather-app-620270",
+      "description": "weather-app - Built with Lovable",
+      "created_at": "2025-07-27T13:07:00Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Fyoussef55/Jobex",
+      "url": "https://github.com/Fyoussef55/Jobex",
+      "description": "AI job matching app built with Lovable AI",
+      "created_at": "2025-07-13T20:13:39Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/simple-to-do-280520",
+      "url": "https://github.com/Danrozen87/simple-to-do-280520",
+      "description": "simple-to-do - Built with Lovable",
+      "created_at": "2025-07-27T18:18:00Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "MAEL-CODER-E/mael",
+      "url": "https://github.com/MAEL-CODER-E/mael",
+      "description": "A simple movie website built with Lovable.app",
+      "created_at": "2025-05-26T08:47:36Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/gantt-app-489958",
+      "url": "https://github.com/Danrozen87/gantt-app-489958",
+      "description": "gantt-app - Built with Lovable",
+      "created_at": "2025-07-26T19:01:30Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-app-190567",
+      "url": "https://github.com/Danrozen87/todo-app-190567",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-27T12:09:50Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "Danrozen87/todo-app-758758",
+      "url": "https://github.com/Danrozen87/todo-app-758758",
+      "description": "todo-app - Built with Lovable",
+      "created_at": "2025-07-27T13:09:19Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -7069,6 +7153,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Danrozen87/minimal-to-do",
+      "url": "https://github.com/Danrozen87/minimal-to-do",
+      "description": "minimal-to-do - Built with Lovable",
+      "created_at": "2025-07-27T12:07:13Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "Lovable",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "Danrozen87/to-do-165015",
       "url": "https://github.com/Danrozen87/to-do-165015",
       "description": "to-do - Built with Lovable",
@@ -7105,46 +7201,10 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/minimal-to-do",
-      "url": "https://github.com/Danrozen87/minimal-to-do",
-      "description": "minimal-to-do - Built with Lovable",
-      "created_at": "2025-07-27T12:07:13Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-to-do-280520",
-      "url": "https://github.com/Danrozen87/simple-to-do-280520",
-      "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T18:18:00Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Danrozen87/teams-like-app",
       "url": "https://github.com/Danrozen87/teams-like-app",
       "description": "teams-like-app - Built with Lovable",
       "created_at": "2025-07-26T19:20:22Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/simple-to-do-806368",
-      "url": "https://github.com/Danrozen87/simple-to-do-806368",
-      "description": "simple-to-do - Built with Lovable",
-      "created_at": "2025-07-27T15:23:26Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -7189,34 +7249,10 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/weather-app-917885",
-      "url": "https://github.com/Danrozen87/weather-app-917885",
-      "description": "weather-app - Built with Lovable",
-      "created_at": "2025-07-27T12:38:38Z",
-      "language": "JavaScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/new-project-642229",
-      "url": "https://github.com/Danrozen87/new-project-642229",
-      "description": "new-project - Built with Lovable",
-      "created_at": "2025-07-26T18:14:02Z",
-      "language": "CSS",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-720312",
-      "url": "https://github.com/Danrozen87/todo-app-720312",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-27T18:25:20Z",
+      "full_name": "Danrozen87/simple-to-do-806368",
+      "url": "https://github.com/Danrozen87/simple-to-do-806368",
+      "description": "simple-to-do - Built with Lovable",
+      "created_at": "2025-07-27T15:23:26Z",
       "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -7237,48 +7273,12 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Danrozen87/gantt-app-489958",
-      "url": "https://github.com/Danrozen87/gantt-app-489958",
-      "description": "gantt-app - Built with Lovable",
-      "created_at": "2025-07-26T19:01:30Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-190567",
-      "url": "https://github.com/Danrozen87/todo-app-190567",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-27T12:09:50Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "Danrozen87/todo-app-758758",
-      "url": "https://github.com/Danrozen87/todo-app-758758",
-      "description": "todo-app - Built with Lovable",
-      "created_at": "2025-07-27T13:09:19Z",
-      "language": "TypeScript",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "Lovable",
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Tencent/AICGSecEval",
       "url": "https://github.com/Tencent/AICGSecEval",
       "description": "A.S.E (AICGSecEval) is a repository-level AI-generated code security evaluation benchmark developed by Tencent Wukong Code Security Team.",
       "created_at": "2025-07-08T01:19:12Z",
       "language": "Python",
-      "stars": 913,
+      "stars": 914,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7290,7 +7290,7 @@
       "description": "Run Claude Code, Gemini, Codex — or any coding agent — in a clean, isolated sandbox with sensitive data redaction and observability baked in.",
       "created_at": "2025-05-14T21:47:04Z",
       "language": "TypeScript",
-      "stars": 1581,
+      "stars": 1582,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7314,7 +7314,7 @@
       "description": "A simple task management system for managing AI dev agents",
       "created_at": "2025-04-19T15:45:58Z",
       "language": null,
-      "stars": 7000,
+      "stars": 7002,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7506,7 +7506,7 @@
       "description": "Fulling is an AI-powered Full-stack Engineer Agent. Built with Next.js, Claude Sonnet, shadcn/ui, and PostgreSQL. Generates 100% AI-written code for full-stack applications.",
       "created_at": "2025-10-11T02:31:07Z",
       "language": "TypeScript",
-      "stars": 1376,
+      "stars": 1379,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7674,7 +7674,7 @@
       "description": "Official CLI and Python SDK for Prime Intellect - access GPU compute, remote sandboxes, RL environments, and distributed training infrastructure for AI development at scale.",
       "created_at": "2024-12-29T17:23:04Z",
       "language": "Python",
-      "stars": 113,
+      "stars": 114,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7698,7 +7698,7 @@
       "description": "An experimental research tool for fabricating GitHub personas with AI-generated repositories",
       "created_at": "2025-12-01T02:06:32Z",
       "language": "Python",
-      "stars": 190,
+      "stars": 191,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7710,7 +7710,7 @@
       "description": "CoLearning Programming & Agentic AI with Python and TypeScript: The AI-Driven Way. Learn, build, and collaborate with intelligent AI agents — building systems where AI is the core.",
       "created_at": "2025-10-28T07:50:37Z",
       "language": "Jupyter Notebook",
-      "stars": 61,
+      "stars": 62,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -7981,6 +7981,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "delano/postman-mcp-server",
+      "url": "https://github.com/delano/postman-mcp-server",
+      "description": "An MCP server that provides access to Postman.",
+      "created_at": "2024-12-14T06:36:19Z",
+      "language": "TypeScript",
+      "stars": 143,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Social Media"
+    },
+    {
       "full_name": "fuzzland/move-fuzzer",
       "url": "https://github.com/fuzzland/move-fuzzer",
       "description": "WIP - Aptos / Movement / Sui Module Fuzzer",
@@ -8003,18 +8015,6 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "AI/ML Tools"
-    },
-    {
-      "full_name": "delano/postman-mcp-server",
-      "url": "https://github.com/delano/postman-mcp-server",
-      "description": "An MCP server that provides access to Postman.",
-      "created_at": "2024-12-14T06:36:19Z",
-      "language": "TypeScript",
-      "stars": 143,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Social Media"
     },
     {
       "full_name": "adammoss/aicosmologist",
@@ -8094,7 +8094,7 @@
       "description": "Kosmos: An AI Scientist for Autonomous Discovery - An implementation and adaptation to be driven by Claude Code or API - Based on the Kosmos AI Paper -  https://arxiv.org/abs/2511.02824",
       "created_at": "2025-11-07T08:14:30Z",
       "language": "Python",
-      "stars": 283,
+      "stars": 285,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -8202,7 +8202,7 @@
       "description": "Desktop application for Aider AI assistant and much more",
       "created_at": "2025-01-07T22:08:01Z",
       "language": "TypeScript",
-      "stars": 965,
+      "stars": 966,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -8346,7 +8346,7 @@
       "description": "Run agentic workloads on Ray",
       "created_at": "2025-10-10T01:33:24Z",
       "language": "Python",
-      "stars": 18,
+      "stars": 19,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -8359,6 +8359,18 @@
       "created_at": "2025-03-31T19:27:27Z",
       "language": "Go",
       "stars": 18,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
+    },
+    {
+      "full_name": "AgiFlow/aicode-toolkit",
+      "url": "https://github.com/AgiFlow/aicode-toolkit",
+      "description": "Toolkit for Coding Agents to work reliably with repo of any size.",
+      "created_at": "2025-10-05T08:25:22Z",
+      "language": "TypeScript",
+      "stars": 100,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -8399,6 +8411,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Automation/Bot"
+    },
+    {
+      "full_name": "murataslan1/cursor-ai-tips",
+      "url": "https://github.com/murataslan1/cursor-ai-tips",
+      "description": "Cursor AI IDE tips, tricks & best practices - Keyboard shortcuts, Composer mode, .cursorrules examples, and Reddit community wisdom",
+      "created_at": "2025-11-30T20:11:31Z",
+      "language": null,
+      "stars": 78,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Social Media"
     },
     {
       "full_name": "PearlThoughts/Frontend-Interview-Challenge",
@@ -8447,30 +8471,6 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Other"
-    },
-    {
-      "full_name": "agentsea/flashbacker",
-      "url": "https://github.com/agentsea/flashbacker",
-      "description": "Claude Code state management with session continuity and AI personas, subagents and agent discussion",
-      "created_at": "2025-08-06T16:54:26Z",
-      "language": "TypeScript",
-      "stars": 52,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "SaaS"
-    },
-    {
-      "full_name": "botingw/langgraph-dev-navigator",
-      "url": "https://github.com/botingw/langgraph-dev-navigator",
-      "description": "An opinionated development framework for building production-ready AI agents with LangGraph. It grounds AI coding assistants (Cursor, Windsurf, Cline) and guides them to use local, official documentation, ensuring reliable, secure, and observable agentic workflows.",
-      "created_at": "2025-06-16T11:31:45Z",
-      "language": "HTML",
-      "stars": 23,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
     },
     {
       "full_name": "karthik-chopperla/budget-behavior-predictor",
@@ -8653,6 +8653,18 @@
       "category": "AI/ML Tools"
     },
     {
+      "full_name": "Kk0109daze/ZenJi-Club-websites",
+      "url": "https://github.com/Kk0109daze/ZenJi-Club-websites",
+      "description": "A fully AI generated version of my site",
+      "created_at": "2025-12-09T00:56:32Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
+    },
+    {
       "full_name": "Silentman-emmo/Silent-Writer-AI",
       "url": "https://github.com/Silentman-emmo/Silent-Writer-AI",
       "description": "Fully AI generated",
@@ -8773,10 +8785,10 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "Yiqi-Y/ai-club-website",
-      "url": "https://github.com/Yiqi-Y/ai-club-website",
-      "description": "A fully AI generated version of my site",
-      "created_at": "2025-12-08T03:01:42Z",
+      "full_name": "afiqbbbghani/ChemicalList",
+      "url": "https://github.com/afiqbbbghani/ChemicalList",
+      "description": null,
+      "created_at": "2025-07-07T07:34:45Z",
       "language": "HTML",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -8785,10 +8797,10 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "afiqbbbghani/ChemicalList",
-      "url": "https://github.com/afiqbbbghani/ChemicalList",
-      "description": null,
-      "created_at": "2025-07-07T07:34:45Z",
+      "full_name": "Yiqi-Y/ai-club-website",
+      "url": "https://github.com/Yiqi-Y/ai-club-website",
+      "description": "A fully AI generated version of my site",
+      "created_at": "2025-12-08T03:01:42Z",
       "language": "HTML",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
@@ -9169,18 +9181,6 @@
       "category": "Other"
     },
     {
-      "full_name": "aylinmuzaffarli/answer-checker",
-      "url": "https://github.com/aylinmuzaffarli/answer-checker",
-      "description": null,
-      "created_at": "2025-10-26T16:04:39Z",
-      "language": "HTML",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "FadyGerges23/Movie-Night",
       "url": "https://github.com/FadyGerges23/Movie-Night",
       "description": "Movie Night is a modern movie center website (much like Netflix or Disney+) where users can browse and explore movies in a visually appealing way. This website is fully AI generated using Cursor AI Editor and vibe coding (using the prompt inside prompt-example file).",
@@ -9193,11 +9193,35 @@
       "category": "AI/ML Tools"
     },
     {
+      "full_name": "aylinmuzaffarli/answer-checker",
+      "url": "https://github.com/aylinmuzaffarli/answer-checker",
+      "description": null,
+      "created_at": "2025-10-26T16:04:39Z",
+      "language": "HTML",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
+    },
+    {
       "full_name": "karthik-chopperla/dynamic-daily-planner",
       "url": "https://github.com/karthik-chopperla/dynamic-daily-planner",
       "description": null,
       "created_at": "2025-06-17T01:53:43Z",
       "language": "Python",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Design/Creative"
+    },
+    {
+      "full_name": "yhy258/ImagePixelViewer",
+      "url": "https://github.com/yhy258/ImagePixelViewer",
+      "description": null,
+      "created_at": "2025-12-09T02:47:58Z",
+      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -9253,18 +9277,6 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "SuTechs/catering_landing_site",
-      "url": "https://github.com/SuTechs/catering_landing_site",
-      "description": null,
-      "created_at": "2025-11-20T06:16:22Z",
-      "language": "HTML",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "sayan112207/Stable-Diffusion",
       "url": "https://github.com/sayan112207/Stable-Diffusion",
       "description": null,
@@ -9275,6 +9287,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Productivity"
+    },
+    {
+      "full_name": "SuTechs/catering_landing_site",
+      "url": "https://github.com/SuTechs/catering_landing_site",
+      "description": null,
+      "created_at": "2025-11-20T06:16:22Z",
+      "language": "HTML",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "krushndayshmookh/markdown-to-pdf",
@@ -9409,6 +9433,18 @@
       "category": "Design/Creative"
     },
     {
+      "full_name": "Saighodke00/ai-news-generator",
+      "url": "https://github.com/Saighodke00/ai-news-generator",
+      "description": "🎥 AI News Generator — An end-to-end Flask web app that turns real-time headlines into AI-generated news videos using text-to-speech, images, and MoviePy. Instant, creative, and automated content creation.",
+      "created_at": "2025-06-27T15:55:40Z",
+      "language": "HTML",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Design/Creative"
+    },
+    {
       "full_name": "JEYSAN-V/chat-bot-vibe-coding",
       "url": "https://github.com/JEYSAN-V/chat-bot-vibe-coding",
       "description": null,
@@ -9433,18 +9469,6 @@
       "category": "Social Media"
     },
     {
-      "full_name": "u5f2094ee/Gemini-s-Adventure-in-the-World-of-Minecraft",
-      "url": "https://github.com/u5f2094ee/Gemini-s-Adventure-in-the-World-of-Minecraft",
-      "description": "《Gemini's Adventure in the World of Minecraft》is a fully AI-generated children’s novel.",
-      "created_at": "2025-05-27T06:16:01Z",
-      "language": null,
-      "stars": 1,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "Pyuxiz/ai_help_generated_mini_web_game",
       "url": "https://github.com/Pyuxiz/ai_help_generated_mini_web_game",
       "description": null,
@@ -9457,16 +9481,16 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "Saighodke00/ai-news-generator",
-      "url": "https://github.com/Saighodke00/ai-news-generator",
-      "description": "🎥 AI News Generator — An end-to-end Flask web app that turns real-time headlines into AI-generated news videos using text-to-speech, images, and MoviePy. Instant, creative, and automated content creation.",
-      "created_at": "2025-06-27T15:55:40Z",
-      "language": "HTML",
-      "stars": 0,
+      "full_name": "u5f2094ee/Gemini-s-Adventure-in-the-World-of-Minecraft",
+      "url": "https://github.com/u5f2094ee/Gemini-s-Adventure-in-the-World-of-Minecraft",
+      "description": "《Gemini's Adventure in the World of Minecraft》is a fully AI-generated children’s novel.",
+      "created_at": "2025-05-27T06:16:01Z",
+      "language": null,
+      "stars": 1,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
-      "category": "Design/Creative"
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "nicolasarmientor/morse-code-translator",
@@ -9474,18 +9498,6 @@
       "description": "A Flask-based web application that translates between text and Morse code in both directions. Features include copy-to-clipboard, clear functionality, responsive UI with dark/light theme, and a clean CSV-based Morse code reference.",
       "created_at": "2025-08-09T21:55:27Z",
       "language": "CSS",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "dhaval-arborgold/RapidPhotoFlow",
-      "url": "https://github.com/dhaval-arborgold/RapidPhotoFlow",
-      "description": "RapidPhotoFlow",
-      "created_at": "2025-11-28T13:18:48Z",
-      "language": "TypeScript",
       "stars": 0,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
@@ -9503,6 +9515,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Productivity"
+    },
+    {
+      "full_name": "dhaval-arborgold/RapidPhotoFlow",
+      "url": "https://github.com/dhaval-arborgold/RapidPhotoFlow",
+      "description": "RapidPhotoFlow",
+      "created_at": "2025-11-28T13:18:48Z",
+      "language": "TypeScript",
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Design/Creative"
     },
     {
       "full_name": "Antanter/HoMM3_Battles-simulator",
@@ -9565,18 +9589,6 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "itsamirhn/DongetoBede.js",
-      "url": "https://github.com/itsamirhn/DongetoBede.js",
-      "description": "JavaScript Version of DongetoBede bot",
-      "created_at": "2025-07-04T12:46:36Z",
-      "language": "JavaScript",
-      "stars": 1,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Automation/Bot"
-    },
-    {
       "full_name": "ayushm0807/Email-Sender",
       "url": "https://github.com/ayushm0807/Email-Sender",
       "description": null,
@@ -9587,6 +9599,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "AI/ML Tools"
+    },
+    {
+      "full_name": "itsamirhn/DongetoBede.js",
+      "url": "https://github.com/itsamirhn/DongetoBede.js",
+      "description": "JavaScript Version of DongetoBede bot",
+      "created_at": "2025-07-04T12:46:36Z",
+      "language": "JavaScript",
+      "stars": 1,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Automation/Bot"
     },
     {
       "full_name": "MrSdas10/Flappy-Bird",
@@ -9601,18 +9625,6 @@
       "category": "Other"
     },
     {
-      "full_name": "Bilbo-Music/bilbo-docs-public",
-      "url": "https://github.com/Bilbo-Music/bilbo-docs-public",
-      "description": null,
-      "created_at": "2025-03-05T20:16:55Z",
-      "language": null,
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Entertainment"
-    },
-    {
       "full_name": "rvcode-space-hub/ai",
       "url": "https://github.com/rvcode-space-hub/ai",
       "description": "Code Practice Hub – Work on real projects to practice coding, improve problem-solving, and build your portfolio.",
@@ -9623,6 +9635,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Design/Creative"
+    },
+    {
+      "full_name": "Bilbo-Music/bilbo-docs-public",
+      "url": "https://github.com/Bilbo-Music/bilbo-docs-public",
+      "description": null,
+      "created_at": "2025-03-05T20:16:55Z",
+      "language": null,
+      "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "Entertainment"
     },
     {
       "full_name": "santuduttacc/WordPress-AI-Content-Predictor-Plugin",
@@ -9697,36 +9721,12 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "SikandarFarooqSaani/Early_Stopping_ANN",
-      "url": "https://github.com/SikandarFarooqSaani/Early_Stopping_ANN",
-      "description": "Early Stopping in ANN to avoid Overfit",
-      "created_at": "2025-11-16T17:09:54Z",
-      "language": "Jupyter Notebook",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Productivity"
-    },
-    {
-      "full_name": "ayman3000/python-notebook-hub",
-      "url": "https://github.com/ayman3000/python-notebook-hub",
-      "description": "A collection of beginner-friendly Python notebooks covering programming, data analysis, and deep learning.",
-      "created_at": "2025-06-16T11:53:30Z",
-      "language": "Jupyter Notebook",
-      "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "Education"
-    },
-    {
       "full_name": "Kilo-Org/kilocode",
       "url": "https://github.com/Kilo-Org/kilocode",
       "description": "Open Source AI coding assistant for planning, building, and fixing code. We frequently merge features from open-source projects while building our own vision. Follow us: kilocode.ai/social",
       "created_at": "2025-03-10T15:34:26Z",
       "language": "TypeScript",
-      "stars": 13016,
+      "stars": 13024,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -9774,7 +9774,7 @@
       "description": "A curated list of vibe coding references, collaborating with AI to write code.",
       "created_at": "2025-03-13T17:46:56Z",
       "language": null,
-      "stars": 1703,
+      "stars": 1705,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -9978,11 +9978,23 @@
       "description": "interview-coder-withoupaywall-opensource",
       "created_at": "2025-03-14T20:36:30Z",
       "language": "TypeScript",
-      "stars": 1666,
+      "stars": 1668,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Automation/Bot"
+    },
+    {
+      "full_name": "cporter202/ai-agent-tools",
+      "url": "https://github.com/cporter202/ai-agent-tools",
+      "description": "A curated collection of AI tools, utilities, and resources for developers and creators",
+      "created_at": "2025-12-05T16:12:53Z",
+      "language": null,
+      "stars": 179,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "albert-byiringiro/the-gym-ai-club",
@@ -9991,18 +10003,6 @@
       "created_at": "2025-04-23T08:23:20Z",
       "language": "HTML",
       "stars": 0,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
-      "full_name": "cporter202/ai-agent-tools",
-      "url": "https://github.com/cporter202/ai-agent-tools",
-      "description": "A curated collection of AI tools, utilities, and resources for developers and creators",
-      "created_at": "2025-12-05T16:12:53Z",
-      "language": null,
-      "stars": 170,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -10201,18 +10201,6 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "Godot4-Addons/ai_assistant_for_godot",
-      "url": "https://github.com/Godot4-Addons/ai_assistant_for_godot",
-      "description": "AI Coding Assistant for Godot 4",
-      "created_at": "2025-06-01T09:04:52Z",
-      "language": "GDScript",
-      "stars": 11,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "qtecsolution/AI-Content-Image-Generator-SaaS",
       "url": "https://github.com/qtecsolution/AI-Content-Image-Generator-SaaS",
       "description": "AI-powered content and image generation SaaS platform built with Laravel, featuring a chat interface with AI. This project enables users to interact with AI for content creation, image generation, and real-time conversations, providing a seamless creative and marketing experience. Open-source and customizable.",
@@ -10223,6 +10211,18 @@
       "confidence": "high",
       "ai_tool": "AI (generic)",
       "category": "Design/Creative"
+    },
+    {
+      "full_name": "Godot4-Addons/ai_assistant_for_godot",
+      "url": "https://github.com/Godot4-Addons/ai_assistant_for_godot",
+      "description": "AI Coding Assistant for Godot 4",
+      "created_at": "2025-06-01T09:04:52Z",
+      "language": "GDScript",
+      "stars": 11,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "rvc-guide/rvc-guide.github.io",
@@ -10350,7 +10350,7 @@
       "description": "🦄 ai that works - every tuesday 10 AM PST",
       "created_at": "2025-04-02T05:41:14Z",
       "language": "TypeScript",
-      "stars": 1148,
+      "stars": 1150,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -10482,7 +10482,7 @@
       "description": null,
       "created_at": "2025-07-05T16:30:09Z",
       "language": "Python",
-      "stars": 1929,
+      "stars": 1930,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -10657,24 +10657,24 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "fritzduchardt/ai-tools",
-      "url": "https://github.com/fritzduchardt/ai-tools",
-      "description": null,
-      "created_at": "2025-04-06T12:56:52Z",
-      "language": "Shell",
-      "stars": 2,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "deweydex/2plus1Coding",
       "url": "https://github.com/deweydex/2plus1Coding",
       "description": "A Future of Coding Experiment with Claude Code/Cursor",
       "created_at": "2025-11-05T23:18:54Z",
       "language": "HTML",
       "stars": 0,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
+    },
+    {
+      "full_name": "fritzduchardt/ai-tools",
+      "url": "https://github.com/fritzduchardt/ai-tools",
+      "description": null,
+      "created_at": "2025-04-06T12:56:52Z",
+      "language": "Shell",
+      "stars": 2,
       "detected_via": "Phase 1: Explicit",
       "confidence": "high",
       "ai_tool": "AI (generic)",
@@ -10825,6 +10825,18 @@
       "category": "Automation/Bot"
     },
     {
+      "full_name": "flora131/atomic",
+      "url": "https://github.com/flora131/atomic",
+      "description": "Automated Procedures and Memory for AI Coding Agents",
+      "created_at": "2025-10-23T04:24:21Z",
+      "language": "Python",
+      "stars": 20,
+      "detected_via": "Phase 1: Explicit",
+      "confidence": "high",
+      "ai_tool": "AI (generic)",
+      "category": "AI/ML Tools"
+    },
+    {
       "full_name": "dasiths/VibeCodingBreadcrumbDemo",
       "url": "https://github.com/dasiths/VibeCodingBreadcrumbDemo",
       "description": "This repository serves as an example showcasing a structured approach for collaborating with AI agents (like GitHub Copilot Chat or similar LLM-based assistants) during software development.",
@@ -10885,18 +10897,6 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "flora131/atomic",
-      "url": "https://github.com/flora131/atomic",
-      "description": "Automated Procedures and Memory for AI Coding Agents",
-      "created_at": "2025-10-23T04:24:21Z",
-      "language": "Python",
-      "stars": 18,
-      "detected_via": "Phase 1: Explicit",
-      "confidence": "high",
-      "ai_tool": "AI (generic)",
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "swamy3697/copy-mate",
       "url": "https://github.com/swamy3697/copy-mate",
       "description": "A Visual Studio Code  extension simplifies the process of sharing files with chatbots for debugging or review.",
@@ -10914,7 +10914,7 @@
       "description": "High Fidelity Detection Mechanism for RSC/Next.js RCE (CVE-2025-55182 & CVE-2025-66478)",
       "created_at": "2025-12-04T06:55:04Z",
       "language": "Python",
-      "stars": 1452,
+      "stars": 1591,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -10930,34 +10930,12 @@
       "category": "Security/Privacy"
     },
     {
-      "full_name": "ejpir/CVE-2025-55182-research",
-      "url": "https://github.com/ejpir/CVE-2025-55182-research",
-      "description": "CVE-2025-55182 POC",
-      "created_at": "2025-12-03T21:16:22Z",
-      "language": "JavaScript",
-      "stars": 721,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-0.12",
-        "total_commits": 68,
-        "files_in_first_commit": 12
-      },
-      "category": "Security/Privacy"
-    },
-    {
       "full_name": "msanft/CVE-2025-55182",
       "url": "https://github.com/msanft/CVE-2025-55182",
       "description": "Explanation and full RCE PoC for CVE-2025-55182",
       "created_at": "2025-12-04T11:49:55Z",
       "language": "Python",
-      "stars": 715,
+      "stars": 795,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -10974,12 +10952,34 @@
       "category": "Security/Privacy"
     },
     {
+      "full_name": "ejpir/CVE-2025-55182-research",
+      "url": "https://github.com/ejpir/CVE-2025-55182-research",
+      "description": "CVE-2025-55182 POC",
+      "created_at": "2025-12-03T21:16:22Z",
+      "language": "JavaScript",
+      "stars": 723,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "1000+ lines added at once"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-0.12",
+        "total_commits": 69,
+        "files_in_first_commit": 12
+      },
+      "category": "Security/Privacy"
+    },
+    {
       "full_name": "lachlan2k/React2Shell-CVE-2025-55182-original-poc",
       "url": "https://github.com/lachlan2k/React2Shell-CVE-2025-55182-original-poc",
       "description": "Original Proof-of-Concepts for React2Shell CVE-2025-55182",
       "created_at": "2025-12-05T08:00:07Z",
       "language": "JavaScript",
-      "stars": 613,
+      "stars": 638,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11000,7 +11000,7 @@
       "description": null,
       "created_at": "2025-12-04T12:49:07Z",
       "language": "TypeScript",
-      "stars": 598,
+      "stars": 623,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11023,7 +11023,7 @@
       "description": "Implementation of \"Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length\"",
       "created_at": "2025-12-04T11:06:10Z",
       "language": "Python",
-      "stars": 517,
+      "stars": 558,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11035,10 +11035,32 @@
       ],
       "timing_data": {
         "hours_to_first_commit": "-120.61",
-        "total_commits": 10,
+        "total_commits": 11,
         "files_in_first_commit": 140
       },
       "category": "Entertainment"
+    },
+    {
+      "full_name": "zai-org/Open-AutoGLM",
+      "url": "https://github.com/zai-org/Open-AutoGLM",
+      "description": null,
+      "created_at": "2025-12-08T09:23:44Z",
+      "language": "Python",
+      "stars": 483,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "Built in <48 hours",
+        "20+ files in first commit",
+        "1000+ lines added at once"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "6.51",
+        "total_commits": 3,
+        "files_in_first_commit": 31
+      },
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "PastKing/tgbot-verify",
@@ -11046,7 +11068,7 @@
       "description": "一个基于 Python Telegram Bot 的自动化认证工具，能够自动完成 SheerID 平台的学生/教师身份验证流程。",
       "created_at": "2025-12-07T06:27:57Z",
       "language": "Python",
-      "stars": 420,
+      "stars": 427,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11062,12 +11084,33 @@
       "category": "Social Media"
     },
     {
+      "full_name": "byJoey/ech-wk",
+      "url": "https://github.com/byJoey/ech-wk",
+      "description": null,
+      "created_at": "2025-12-06T07:20:27Z",
+      "language": "Python",
+      "stars": 352,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "0.05",
+        "total_commits": 30,
+        "files_in_first_commit": 1
+      },
+      "category": "Other"
+    },
+    {
       "full_name": "mrknow001/RSC_Detector",
       "url": "https://github.com/mrknow001/RSC_Detector",
       "description": "Supports RSC fingerprinting and exploitation of the React component vulnerability CVE-2025-55182.",
       "created_at": "2025-12-05T05:53:25Z",
       "language": "JavaScript",
-      "stars": 340,
+      "stars": 346,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11089,7 +11132,7 @@
       "description": "Norish - A realtime, self-hosted recipe app for families & friends ",
       "created_at": "2025-12-03T09:15:43Z",
       "language": "TypeScript",
-      "stars": 335,
+      "stars": 338,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11112,7 +11155,7 @@
       "description": null,
       "created_at": "2025-12-05T16:26:38Z",
       "language": null,
-      "stars": 333,
+      "stars": 334,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11130,25 +11173,26 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "byJoey/ech-wk",
-      "url": "https://github.com/byJoey/ech-wk",
-      "description": null,
-      "created_at": "2025-12-06T07:20:27Z",
-      "language": "Python",
-      "stars": 307,
+      "full_name": "TanShilongMario/PromptFill",
+      "url": "https://github.com/TanShilongMario/PromptFill",
+      "description": "一个专为 AI 绘画（Nano Banana 等）设计的“结构化提示词生成工具”。通过可视化的“填空”交互方式，帮助用户快速构建、管理和迭代复杂的 Prompt。",
+      "created_at": "2025-12-06T14:33:31Z",
+      "language": "JavaScript",
+      "stars": 304,
       "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
+      "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
       "temporal_signals": [
         "App appeared in <1 hour",
-        "Built in <48 hours"
+        "Built in <48 hours",
+        "1000+ lines added at once"
       ],
       "timing_data": {
-        "hours_to_first_commit": "0.05",
+        "hours_to_first_commit": "-0.13",
         "total_commits": 30,
-        "files_in_first_commit": 1
+        "files_in_first_commit": 13
       },
-      "category": "Other"
+      "category": "AI/ML Tools"
     },
     {
       "full_name": "Sean-V-Dev/HMLR-Agentic-AI-Memory-System",
@@ -11156,7 +11200,7 @@
       "description": "Living memory for AI",
       "created_at": "2025-12-05T15:13:32Z",
       "language": "Python",
-      "stars": 302,
+      "stars": 303,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11180,7 +11224,7 @@
       "description": "A command-line scanner for batch detection of Next.js application versions and determining if they are affected by CVE-2025-66478 vulnerability.",
       "created_at": "2025-12-04T13:13:33Z",
       "language": "Go",
-      "stars": 279,
+      "stars": 289,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11203,7 +11247,7 @@
       "description": "An AGENTS.md file for Swift and SwiftUI projects.",
       "created_at": "2025-12-06T17:36:46Z",
       "language": null,
-      "stars": 277,
+      "stars": 283,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11224,7 +11268,7 @@
       "description": "Ai konusunda yayınlanan makale ve araştırmaların Türkçe detaylı-açıklamalı çevirilerine ve Türkçe Ai'a hazırlattığım Derin Araştırma Dökümanlarıma ulaşabilirsiniz.",
       "created_at": "2025-12-07T18:26:31Z",
       "language": null,
-      "stars": 265,
+      "stars": 274,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11240,34 +11284,12 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "TanShilongMario/PromptFill",
-      "url": "https://github.com/TanShilongMario/PromptFill",
-      "description": "一个专为 AI 绘画（Nano Banana 等）设计的“结构化提示词生成工具”。通过可视化的“填空”交互方式，帮助用户快速构建、管理和迭代复杂的 Prompt。",
-      "created_at": "2025-12-06T14:33:31Z",
-      "language": "JavaScript",
-      "stars": 259,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-0.13",
-        "total_commits": 26,
-        "files_in_first_commit": 13
-      },
-      "category": "AI/ML Tools"
-    },
-    {
       "full_name": "emredavut/CVE-2025-55182",
       "url": "https://github.com/emredavut/CVE-2025-55182",
       "description": "RSC/Next.js RCE Vulnerability Detector & PoC Chrome Extension – CVE-2025-55182 & CVE-2025-66478",
       "created_at": "2025-12-06T00:36:16Z",
       "language": "JavaScript",
-      "stars": 225,
+      "stars": 231,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11288,7 +11310,7 @@
       "description": "Complete guide to automating content for growth: Sora 2 video generation, brand authority automation, multi-platform posting, bulk content creation, and API integration.",
       "created_at": "2025-12-05T18:51:51Z",
       "language": null,
-      "stars": 219,
+      "stars": 222,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11302,6 +11324,27 @@
         "files_in_first_commit": 1
       },
       "category": "Automation/Bot"
+    },
+    {
+      "full_name": "zack0x01/CVE-2025-55182-advanced-scanner-",
+      "url": "https://github.com/zack0x01/CVE-2025-55182-advanced-scanner-",
+      "description": null,
+      "created_at": "2025-12-06T14:36:55Z",
+      "language": "Shell",
+      "stars": 216,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "0.01",
+        "total_commits": 4,
+        "files_in_first_commit": 3
+      },
+      "category": "Security/Privacy"
     },
     {
       "full_name": "mostafaaElsherbiny/backend-interview-questions",
@@ -11325,25 +11368,49 @@
       "category": "Other"
     },
     {
-      "full_name": "zack0x01/CVE-2025-55182-advanced-scanner-",
-      "url": "https://github.com/zack0x01/CVE-2025-55182-advanced-scanner-",
-      "description": null,
-      "created_at": "2025-12-06T14:36:55Z",
-      "language": "Shell",
-      "stars": 211,
+      "full_name": "tobi/qmd",
+      "url": "https://github.com/tobi/qmd",
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "created_at": "2025-12-08T14:22:57Z",
+      "language": "TypeScript",
+      "stars": 214,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "1000+ lines added at once",
+        "AI mentioned in commit message"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-14.11",
+        "total_commits": 11,
+        "files_in_first_commit": 8
+      },
+      "category": "Productivity"
+    },
+    {
+      "full_name": "HKUDS/Paper2Slides",
+      "url": "https://github.com/HKUDS/Paper2Slides",
+      "description": "\"Paper2Slides: From Paper to Presentation in One Click\"",
+      "created_at": "2025-12-07T06:15:43Z",
+      "language": "Python",
+      "stars": 213,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
       "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours"
+        "Built in <48 hours",
+        "20+ files in first commit",
+        "1000+ lines added at once"
       ],
       "timing_data": {
-        "hours_to_first_commit": "0.01",
-        "total_commits": 4,
-        "files_in_first_commit": 3
+        "hours_to_first_commit": "5.67",
+        "total_commits": 12,
+        "files_in_first_commit": 93
       },
-      "category": "Security/Privacy"
+      "category": "Developer Tools"
     },
     {
       "full_name": "0xsline/StoryGen-Atelier",
@@ -11351,7 +11418,7 @@
       "description": "AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-in logs and gallery management.",
       "created_at": "2025-12-03T12:30:22Z",
       "language": "JavaScript",
-      "stars": 192,
+      "stars": 193,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11367,34 +11434,12 @@
       "category": "Design/Creative"
     },
     {
-      "full_name": "Nerds489/NETREAPER",
-      "url": "https://github.com/Nerds489/NETREAPER",
-      "description": "🔥 Network security & WiFi assault toolkit. 70+ tools in one menacing CLI.",
-      "created_at": "2025-12-04T14:10:16Z",
-      "language": "Shell",
-      "stars": 191,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-0.10",
-        "total_commits": 25,
-        "files_in_first_commit": 11
-      },
-      "category": "Developer Tools"
-    },
-    {
       "full_name": "BlackSky-Jose/Prediction-market",
       "url": "https://github.com/BlackSky-Jose/Prediction-market",
       "description": "Prediction, market, solana .A fully decentralized prediction market platform on Solana enabling users to create custom markets, add liquidity, place token-based bets, and automatically resolve outcomes using Switchboard oracles and Anchor smart contracts.",
       "created_at": "2025-12-05T07:13:26Z",
       "language": "TypeScript",
-      "stars": 190,
+      "stars": 192,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11412,145 +11457,12 @@
       "category": "Finance"
     },
     {
-      "full_name": "tulerfeng/OneThinker",
-      "url": "https://github.com/tulerfeng/OneThinker",
-      "description": "🔥 OneThinker: All-in-one Reasoning Model for Image and Video",
-      "created_at": "2025-12-02T13:32:46Z",
-      "language": "Python",
-      "stars": 189,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "4.49",
-        "total_commits": 17,
-        "files_in_first_commit": 300
-      },
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "mtvpls/MoonTVPlus",
-      "url": "https://github.com/mtvpls/MoonTVPlus",
-      "description": "MoonTVPlus 是基于 MoonTV v100 二次开发的增强版影视聚合播放器。它在原版基础上新增了外部播放器支持、视频超分、弹幕系统、评论抓取等实用功能，提供更强大的观影体验。",
-      "created_at": "2025-12-02T13:45:58Z",
-      "language": "TypeScript",
-      "stars": 189,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-2472.34",
-        "total_commits": 100,
-        "files_in_first_commit": 1
-      },
-      "category": "Automation/Bot"
-    },
-    {
-      "full_name": "HKUDS/Paper2Slides",
-      "url": "https://github.com/HKUDS/Paper2Slides",
-      "description": "\"Paper2Slides: From Paper to Presentation in One Click\"",
-      "created_at": "2025-12-07T06:15:43Z",
-      "language": "Python",
-      "stars": 187,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "5.67",
-        "total_commits": 12,
-        "files_in_first_commit": 93
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "full_name": "dennisklappe/CloudMeet",
-      "url": "https://github.com/dennisklappe/CloudMeet",
-      "description": "Open-source Calendly alternative running on Cloudflare's free tier. Meeting scheduler with Google Calendar and Outlook sync.",
-      "created_at": "2025-12-02T21:52:33Z",
-      "language": "TypeScript",
-      "stars": 184,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-1565.47",
-        "total_commits": 27,
-        "files_in_first_commit": 102
-      },
-      "category": "Automation/Bot"
-    },
-    {
-      "full_name": "DDULDDUCK/pingora-proxy-manager",
-      "url": "https://github.com/DDULDDUCK/pingora-proxy-manager",
-      "description": "A high-performance, zero-downtime reverse proxy manager built on Cloudflare's Pingora. Simple, Modern, and Fast. Now supports Wildcard SSL & TCP/UDP Streams!",
-      "created_at": "2025-12-02T09:14:26Z",
-      "language": "TypeScript",
-      "stars": 182,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once",
-        "AI mentioned in commit message"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-0.00",
-        "total_commits": 42,
-        "files_in_first_commit": 41
-      },
-      "category": "Design/Creative"
-    },
-    {
-      "full_name": "mit-han-lab/vlash",
-      "url": "https://github.com/mit-han-lab/vlash",
-      "description": "Real-Time VLAs via Future-state-aware Asynchronous Inference.",
-      "created_at": "2025-12-02T01:05:29Z",
-      "language": "Python",
-      "stars": 181,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "0.00",
-        "total_commits": 33,
-        "files_in_first_commit": 1
-      },
-      "category": "Other"
-    },
-    {
       "full_name": "vercel-labs/fix-react2shell-next",
       "url": "https://github.com/vercel-labs/fix-react2shell-next",
       "description": "One command to fix CVE-2025-66478 (React 2 Shell RCE) in your Next.js / React RSC app.",
       "created_at": "2025-12-06T02:41:12Z",
       "language": "JavaScript",
-      "stars": 181,
+      "stars": 184,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11560,55 +11472,31 @@
       ],
       "timing_data": {
         "hours_to_first_commit": "0.51",
-        "total_commits": 27,
+        "total_commits": 32,
         "files_in_first_commit": 9
       },
       "category": "Security/Privacy"
     },
     {
-      "full_name": "rjykgafi/polymarket-sniper-bot",
-      "url": "https://github.com/rjykgafi/polymarket-sniper-bot",
-      "description": "Polymarket Sniper Copytrading Bot - Mempool monitoring , Front trigger transaction same block with higher priority, PolymarketBot, Polymarket Copytrading Bot, FrontRun Bot, Polymarket Trading Bot, Polygon Tradinb Bot, Arbitrage Bot, Polymarket Trading Bot, Polymarket Trading Bot, Polymarket Trading Bot, Polymarket Trading Bot, Polymarket Trading",
-      "created_at": "2025-12-02T22:50:12Z",
-      "language": "TypeScript",
-      "stars": 180,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "0.14",
-        "total_commits": 3,
-        "files_in_first_commit": 27
-      },
-      "category": "Finance"
-    },
-    {
-      "full_name": "deepreinforce-ai/CUDA-L2",
-      "url": "https://github.com/deepreinforce-ai/CUDA-L2",
-      "description": "CUDA-L2: Surpassing cuBLAS Performance for Matrix Multiplication through Reinforcement Learning",
-      "created_at": "2025-12-02T13:29:53Z",
-      "language": "Cuda",
-      "stars": 175,
+      "full_name": "illarion/lockenv",
+      "url": "https://github.com/illarion/lockenv",
+      "description": "Simple, password-based encrypted vault for .env and infrastructure secrets. Like git-crypt or sops, but dramatically simpler. Ideal for small teams and IaC workflows",
+      "created_at": "2025-12-03T13:35:03Z",
+      "language": "Go",
+      "stars": 184,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
       "temporal_signals": [
-        "Built in <48 hours",
-        "20+ files in first commit",
-        "1000+ lines added at once"
+        "App appeared in <1 hour",
+        "Built in <48 hours"
       ],
       "timing_data": {
-        "hours_to_first_commit": "2.71",
-        "total_commits": 8,
-        "files_in_first_commit": 300
+        "hours_to_first_commit": "-4194.18",
+        "total_commits": 20,
+        "files_in_first_commit": 1
       },
-      "category": "Education"
+      "category": "Automation/Bot"
     },
     {
       "full_name": "CryptomSol/prediction-market",
@@ -11662,7 +11550,7 @@
       "description": "DeNA社内で実施したLLM勉強会の資料とソースコード",
       "created_at": "2025-12-04T06:02:24Z",
       "language": "HTML",
-      "stars": 169,
+      "stars": 171,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11679,33 +11567,12 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "illarion/lockenv",
-      "url": "https://github.com/illarion/lockenv",
-      "description": "Simple, password-based encrypted vault for .env and infrastructure secrets. Like git-crypt or sops, but dramatically simpler. Ideal for small teams and IaC workflows",
-      "created_at": "2025-12-03T13:35:03Z",
-      "language": "Go",
-      "stars": 167,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-4194.18",
-        "total_commits": 20,
-        "files_in_first_commit": 1
-      },
-      "category": "Automation/Bot"
-    },
-    {
-      "full_name": "PlummersSoftwareLLC/retropad",
-      "url": "https://github.com/PlummersSoftwareLLC/retropad",
-      "description": null,
-      "created_at": "2025-12-02T00:36:15Z",
-      "language": "C",
-      "stars": 165,
+      "full_name": "TakatoHonda/sui-lang",
+      "url": "https://github.com/TakatoHonda/sui-lang",
+      "description": "粋 (Sui) - A programming language optimized for LLM code generation",
+      "created_at": "2025-12-04T07:07:38Z",
+      "language": "Python",
+      "stars": 166,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11715,11 +11582,11 @@
         "1000+ lines added at once"
       ],
       "timing_data": {
-        "hours_to_first_commit": "0.00",
-        "total_commits": 5,
-        "files_in_first_commit": 14
+        "hours_to_first_commit": "-0.03",
+        "total_commits": 46,
+        "files_in_first_commit": 20
       },
-      "category": "Other"
+      "category": "Design/Creative"
     },
     {
       "full_name": "AnswerDotAI/clipmd",
@@ -11727,7 +11594,7 @@
       "description": "Convert clipboard from HTML to MD",
       "created_at": "2025-12-04T22:26:06Z",
       "language": "JavaScript",
-      "stars": 164,
+      "stars": 165,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11765,34 +11632,12 @@
       "category": "AI/ML Tools"
     },
     {
-      "full_name": "TakatoHonda/sui-lang",
-      "url": "https://github.com/TakatoHonda/sui-lang",
-      "description": "粋 (Sui) - A programming language optimized for LLM code generation",
-      "created_at": "2025-12-04T07:07:38Z",
-      "language": "Python",
-      "stars": 153,
-      "detected_via": "Phase 3: Temporal",
-      "confidence": "very_high",
-      "ai_tool": "AI (inferred from timing)",
-      "temporal_signals": [
-        "App appeared in <1 hour",
-        "Built in <48 hours",
-        "1000+ lines added at once"
-      ],
-      "timing_data": {
-        "hours_to_first_commit": "-0.03",
-        "total_commits": 41,
-        "files_in_first_commit": 20
-      },
-      "category": "Design/Creative"
-    },
-    {
       "full_name": "Miziziziz/Steam-And-Itch-Command-Line-Tools-Guide",
       "url": "https://github.com/Miziziziz/Steam-And-Itch-Command-Line-Tools-Guide",
       "description": "How To Upload To Steam And Itch Using Command Line Tools",
       "created_at": "2025-12-05T18:46:59Z",
       "language": null,
-      "stars": 152,
+      "stars": 154,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11813,7 +11658,7 @@
       "description": "Say goodbye to the complex, verbose, and laggy interaction mode of IDA Pro MCP",
       "created_at": "2025-12-05T17:28:20Z",
       "language": "Python",
-      "stars": 148,
+      "stars": 150,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11834,7 +11679,7 @@
       "description": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
       "created_at": "2025-12-03T13:43:56Z",
       "language": "Python",
-      "stars": 138,
+      "stars": 142,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11850,12 +11695,12 @@
       "category": "Entertainment"
     },
     {
-      "full_name": "Gouryella/drip",
-      "url": "https://github.com/Gouryella/drip",
-      "description": "Self-hosted tunneling solution to expose localhost securely - unlimited bandwidth, no third-party servers",
-      "created_at": "2025-12-02T08:08:42Z",
-      "language": "Go",
-      "stars": 130,
+      "full_name": "HGHugo/FreeboxOS-Ultra-Dashboard",
+      "url": "https://github.com/HGHugo/FreeboxOS-Ultra-Dashboard",
+      "description": "Freebox OS Ultra Dashboard est une interface web moderne (React 19 + Express 5) pour piloter une Freebox : suivi temps réel du débit, statut de connexion, appareils connectés, Wi-Fi, VPN, téléchargements, fichiers, téléphonie, TV, machines virtuelles, contrôle parental et statistiques réseau avancées, le tout dans un dashboard unique.",
+      "created_at": "2025-12-04T19:30:35Z",
+      "language": "TypeScript",
+      "stars": 140,
       "detected_via": "Phase 3: Temporal",
       "confidence": "very_high",
       "ai_tool": "AI (inferred from timing)",
@@ -11866,11 +11711,11 @@
         "1000+ lines added at once"
       ],
       "timing_data": {
-        "hours_to_first_commit": "0.06",
-        "total_commits": 37,
-        "files_in_first_commit": 66
+        "hours_to_first_commit": "0.88",
+        "total_commits": 14,
+        "files_in_first_commit": 91
       },
-      "category": "Design/Creative"
+      "category": "SaaS"
     },
     {
       "full_name": "devcarron/casino-multi-chain",
@@ -11878,7 +11723,7 @@
       "description": "casino, game, multi chain. Completed Casino(Crash, Coinflip, Mines, BlackJack, etc) supported multi-chain coins(eth, sol, base, bitcoin, inj)",
       "created_at": "2025-12-03T19:51:31Z",
       "language": "TypeScript",
-      "stars": 129,
+      "stars": 131,
       "detected_via": "Phase 3: Temporal",
       "confidence": "high",
       "ai_tool": "AI (inferred from timing)",
@@ -11892,6 +11737,48 @@
         "files_in_first_commit": 1
       },
       "category": "Entertainment"
+    },
+    {
+      "full_name": "hwbp/CLR-Unhook",
+      "url": "https://github.com/hwbp/CLR-Unhook",
+      "description": "Modern security products (CrowdStrike, Bitdefender, SentinelOne, etc.) hook the nLoadImage function inside clr.dll to intercept and scan in-memory .NET assembly loads. This tool unhooks that function. ",
+      "created_at": "2025-12-07T17:49:30Z",
+      "language": "C++",
+      "stars": 130,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "0.00",
+        "total_commits": 5,
+        "files_in_first_commit": 1
+      },
+      "category": "E-commerce"
+    },
+    {
+      "full_name": "devcarron/blackjack-python",
+      "url": "https://github.com/devcarron/blackjack-python",
+      "description": "blackjack, game , This is the code for my Telegram Bot with which you can play the game Black Jack",
+      "created_at": "2025-12-03T20:02:11Z",
+      "language": "Python",
+      "stars": 128,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-45771.87",
+        "total_commits": 100,
+        "files_in_first_commit": 3
+      },
+      "category": "Social Media"
     },
     {
       "full_name": "joeseesun/ai-blog-res",
@@ -11914,6 +11801,118 @@
         "files_in_first_commit": 1
       },
       "category": "AI/ML Tools"
+    },
+    {
+      "full_name": "gommzystudio/device-activity-tracker",
+      "url": "https://github.com/gommzystudio/device-activity-tracker",
+      "description": null,
+      "created_at": "2025-12-07T14:56:14Z",
+      "language": "TypeScript",
+      "stars": 125,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "20+ files in first commit",
+        "1000+ lines added at once"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-0.38",
+        "total_commits": 10,
+        "files_in_first_commit": 31
+      },
+      "category": "Automation/Bot"
+    },
+    {
+      "full_name": "jesselau76/trading",
+      "url": "https://github.com/jesselau76/trading",
+      "description": "交易系统模拟",
+      "created_at": "2025-12-03T20:39:01Z",
+      "language": "HTML",
+      "stars": 124,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "0.00",
+        "total_commits": 7,
+        "files_in_first_commit": 2
+      },
+      "category": "Finance"
+    },
+    {
+      "full_name": "meettomorrow/lee-su-threads",
+      "url": "https://github.com/meettomorrow/lee-su-threads",
+      "description": "Lee-Su-Threads 你是誰 (who are you) is a Chrome extension that extracts \"About this profile\" information from Threads.com without needing to visit each user's profile page.",
+      "created_at": "2025-12-05T02:14:40Z",
+      "language": "JavaScript",
+      "stars": 121,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "1000+ lines added at once"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "0.01",
+        "total_commits": 64,
+        "files_in_first_commit": 12
+      },
+      "category": "Automation/Bot"
+    },
+    {
+      "full_name": "joelhooks/opencode-config",
+      "url": "https://github.com/joelhooks/opencode-config",
+      "description": "Personal OpenCode configuration - commands, tools, agents, knowledge",
+      "created_at": "2025-12-07T20:02:52Z",
+      "language": "TypeScript",
+      "stars": 114,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "20+ files in first commit",
+        "1000+ lines added at once",
+        "AI mentioned in commit message"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-0.04",
+        "total_commits": 22,
+        "files_in_first_commit": 38
+      },
+      "category": "Automation/Bot"
+    },
+    {
+      "full_name": "shootthesound/comfyUI-Realtime-Lora",
+      "url": "https://github.com/shootthesound/comfyUI-Realtime-Lora",
+      "description": "Train LoRAs directly inside ComfyUI for Z-image Turbo, SDXL, Flux, WAN 2.2",
+      "created_at": "2025-12-05T16:26:16Z",
+      "language": "Python",
+      "stars": 104,
+      "detected_via": "Phase 3: Temporal",
+      "confidence": "very_high",
+      "ai_tool": "AI (inferred from timing)",
+      "temporal_signals": [
+        "App appeared in <1 hour",
+        "Built in <48 hours",
+        "1000+ lines added at once"
+      ],
+      "timing_data": {
+        "hours_to_first_commit": "-0.03",
+        "total_commits": 43,
+        "files_in_first_commit": 13
+      },
+      "category": "Design/Creative"
     }
   ]
 }

@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 8"],
-    totals: [955]
+    dates: ["Dec 8", "Dec 9"],
+    totals: [955, 955]
 };
 
 // Wait for DOM to be fully ready

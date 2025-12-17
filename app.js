@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [908, 48],
+            data: [909, 46],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -40,7 +40,7 @@ new Chart(toolsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 253],
+            data: [303, 100, 100, 100, 100, 252],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -74,9 +74,9 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
+        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'v0.dev', 'GitHub Copilot', 'Replit AI'],
         datasets: [{
-            data: [303, 100, 100, 100, 100, 100, 50, 48, 22, 21, 12],
+            data: [303, 100, 100, 100, 100, 100, 50, 46, 22, 22, 12],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 8", "Dec 9", "Dec 10", "Dec 11", "Dec 12", "Dec 13", "Dec 14", "Dec 15", "Dec 16"],
-    totals: [955, 955, 956, 956, 957, 957, 956, 955, 956]
+    dates: ["Dec 8", "Dec 9", "Dec 10", "Dec 11", "Dec 12", "Dec 13", "Dec 14", "Dec 15", "Dec 16", "Dec 17"],
+    totals: [955, 955, 956, 956, 957, 957, 956, 955, 956, 955]
 };
 
 // Wait for DOM to be fully ready

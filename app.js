@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 8", "Dec 9", "Dec 10", "Dec 11", "Dec 12", "Dec 13", "Dec 14", "Dec 15", "Dec 16", "Dec 17", "Dec 18", "Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25"],
-    totals: [955, 955, 956, 956, 957, 957, 956, 955, 956, 955, 952, 954, 952, 954, 955, 958, 957, 957]
+    dates: ["Dec 8", "Dec 9", "Dec 10", "Dec 11", "Dec 12", "Dec 13", "Dec 14", "Dec 15", "Dec 16", "Dec 17", "Dec 18", "Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25", "Dec 26"],
+    totals: [955, 955, 956, 956, 957, 957, 956, 955, 956, 955, 952, 954, 952, 954, 955, 958, 957, 957, 957]
 };
 
 // Wait for DOM to be fully ready

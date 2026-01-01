@@ -118,5 +118,10 @@
     "total": 954,
     "explicit": 911,
     "temporal": 43
+  },
+  "2026-01-01": {
+    "total": 957,
+    "explicit": 911,
+    "temporal": 46
   }
 }

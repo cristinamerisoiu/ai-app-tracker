@@ -1,9 +1,4 @@
 {
-  "2025-12-12": {
-    "total": 957,
-    "explicit": 909,
-    "temporal": 48
-  },
   "2025-12-13": {
     "total": 957,
     "explicit": 909,
@@ -148,5 +143,10 @@
     "total": 962,
     "explicit": 914,
     "temporal": 48
+  },
+  "2026-01-11": {
+    "total": 964,
+    "explicit": 915,
+    "temporal": 49
   }
 }

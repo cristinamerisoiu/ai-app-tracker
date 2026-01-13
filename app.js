@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [557, 0],
+            data: [919, 47],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -38,9 +38,9 @@ const toolsCtx = document.getElementById('toolsChart').getContext('2d');
 new Chart(toolsCtx, {
     type: 'doughnut',
     data: {
-        labels: ['Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Other'],
+        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
         datasets: [{
-            data: [100, 100, 100, 100, 100, 57],
+            data: [305, 100, 100, 100, 100, 261],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -74,9 +74,9 @@ const barsCtx = document.getElementById('barsChart').getContext('2d');
 new Chart(barsCtx, {
     type: 'bar',
     data: {
-        labels: ['Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'GitHub Copilot', 'v0.dev', 'Replit AI'],
+        labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'v0.dev', 'GitHub Copilot', 'Replit AI'],
         datasets: [{
-            data: [100, 100, 100, 100, 100, 23, 22, 12],
+            data: [305, 100, 100, 100, 100, 100, 56, 47, 23, 23, 12],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 14", "Dec 15", "Dec 16", "Dec 17", "Dec 18", "Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25", "Dec 26", "Dec 27", "Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12"],
-    totals: [956, 955, 956, 955, 952, 954, 952, 954, 955, 958, 957, 957, 957, 958, 958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557]
+    dates: ["Dec 15", "Dec 16", "Dec 17", "Dec 18", "Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25", "Dec 26", "Dec 27", "Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13"],
+    totals: [955, 956, 955, 952, 954, 952, 954, 955, 958, 957, 957, 957, 958, 958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966]
 };
 
 // Wait for DOM to be fully ready

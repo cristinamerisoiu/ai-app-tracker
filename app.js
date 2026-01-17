@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [922, 45],
+            data: [923, 44],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -76,7 +76,7 @@ new Chart(barsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'v0.dev', 'GitHub Copilot', 'Replit AI'],
         datasets: [{
-            data: [304, 100, 100, 100, 100, 100, 58, 45, 24, 24, 12],
+            data: [304, 100, 100, 100, 100, 100, 58, 44, 25, 24, 12],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 18", "Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25", "Dec 26", "Dec 27", "Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16"],
-    totals: [952, 954, 952, 954, 955, 958, 957, 957, 957, 958, 958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967]
+    dates: ["Dec 19", "Dec 20", "Dec 21", "Dec 22", "Dec 23", "Dec 24", "Dec 25", "Dec 26", "Dec 27", "Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17"],
+    totals: [954, 952, 954, 955, 958, 957, 957, 957, 958, 958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967]
 };
 
 // Wait for DOM to be fully ready

@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 27", "Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25"],
-    totals: [958, 958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976]
+    dates: ["Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25", "Jan 26"],
+    totals: [958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976, 976]
 };
 
 // Wait for DOM to be fully ready

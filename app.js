@@ -8,7 +8,7 @@ new Chart(methodsCtx, {
     data: {
         labels: ['Explicit', 'Temporal'],
         datasets: [{
-            data: [929, 47],
+            data: [929, 46],
             backgroundColor: [
                 '#dc2626',
                 '#3b82f6'
@@ -40,7 +40,7 @@ new Chart(toolsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Other'],
         datasets: [{
-            data: [305, 100, 100, 100, 100, 271],
+            data: [305, 100, 100, 100, 100, 270],
             backgroundColor: [
                 '#8b5cf6',
                 '#3b82f6',
@@ -76,7 +76,7 @@ new Chart(barsCtx, {
     data: {
         labels: ['AI (generic)', 'Claude', 'ChatGPT', 'Cursor', 'Bolt.new', 'Lovable', 'Windsurf', 'AI (inferred from timing)', 'v0.dev', 'GitHub Copilot', 'Replit AI'],
         datasets: [{
-            data: [305, 100, 100, 100, 100, 100, 60, 47, 26, 26, 12],
+            data: [305, 100, 100, 100, 100, 100, 60, 46, 26, 26, 12],
             backgroundColor: '#3b82f6',
             borderRadius: 4
         }]
@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 28", "Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25", "Jan 26"],
-    totals: [958, 960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976, 976]
+    dates: ["Dec 29", "Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25", "Jan 26", "Jan 27"],
+    totals: [960, 959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976, 976, 975]
 };
 
 // Wait for DOM to be fully ready

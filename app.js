@@ -110,9 +110,9 @@ const categoriesCtx = document.getElementById('categoriesChart').getContext('2d'
 new Chart(categoriesCtx, {
     type: 'bar',
     data: {
-        labels: ["Other","AI/ML Tools","SaaS","Design/Creative","Developer Tools","Productivity","Social Media","Entertainment","Education"],
+        labels: [],
         datasets: [{
-            data: [329,196,85,73,50,47,45,39,24],
+            data: [],
             backgroundColor: '#8b5cf6',
             borderRadius: 4
         }]
@@ -155,8 +155,8 @@ new Chart(categoriesCtx, {
 
 // Growth Over Time chart
 const GROWTH_DATA = {
-    dates: ["Dec 30", "Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25", "Jan 26", "Jan 27", "Jan 28"],
-    totals: [959, 954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976, 976, 975, 0]
+    dates: ["Dec 31", "Jan 1", "Jan 2", "Jan 3", "Jan 4", "Jan 5", "Jan 6", "Jan 7", "Jan 8", "Jan 9", "Jan 10", "Jan 11", "Jan 12", "Jan 13", "Jan 14", "Jan 15", "Jan 16", "Jan 17", "Jan 18", "Jan 19", "Jan 20", "Jan 21", "Jan 22", "Jan 23", "Jan 24", "Jan 25", "Jan 26", "Jan 27", "Jan 28", "Jan 29"],
+    totals: [954, 957, 957, 956, 956, 961, 962, 961, 961, 962, 962, 964, 557, 966, 968, 967, 967, 967, 967, 966, 967, 967, 967, 970, 973, 976, 976, 975, 0, 0]
 };
 
 // Wait for DOM to be fully ready

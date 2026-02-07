@@ -1,9 +1,4 @@
 {
-  "2026-01-08": {
-    "total": 961,
-    "explicit": 915,
-    "temporal": 46
-  },
   "2026-01-09": {
     "total": 962,
     "explicit": 914,
@@ -145,6 +140,11 @@
     "temporal": 0
   },
   "2026-02-06": {
+    "total": 0,
+    "explicit": 0,
+    "temporal": 0
+  },
+  "2026-02-07": {
     "total": 0,
     "explicit": 0,
     "temporal": 0
